@@ -1,4 +1,4 @@
-a# John Hardy
+# John Hardy
 ## Senior Frontend Developer
 
 * Location: Melbourne
