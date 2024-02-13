@@ -7,7 +7,7 @@
   .resume {
     
     & {
-      @apply text-sm p-24
+      @apply text-sm px-14 py-20
     }
 
     h1, h2, h3, h4, h5 {
