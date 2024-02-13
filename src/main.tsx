@@ -7,6 +7,10 @@ import {
   MdEmail,
   MdLink,
   MdDiamond,
+  MdLocationSearching,
+  MdLocationCity,
+  MdSearch,
+  MdAccessTime,
   MdSettingsSuggest,
 } from "react-icons/md";
 
@@ -17,31 +21,53 @@ export const Resume = () => {
         <h1 className="">John Hardy</h1>
         <h2 className="">Senior Frontend Developer</h2>
         <ul className="contact">
-          <li className="icon-text">
-            <MdLocationOn />
-            Melbourne
+          <li>
+            <div>
+              <MdLocationOn />
+              <b>Location:</b> Melbourne
+            </div>
+            <div>
+              <MdLocalPhone />
+              <b>Phone:</b> <a href="tel:+61 436 005 419">+61 436 005 419</a>
+            </div>
+            <div>
+              <MdEmail />
+              <b>Email:</b> <a href="mailto:jh@lagado.com">jh@lagado.com</a>
+            </div>
+            <div>
+              <MdLocationSearching />
+              <b>Status:</b> Australian citizen
+            </div>
+            <div>
+              <MdLink />
+              <b>GitHub:</b>{" "}
+              <a href="https://github.com/jhlagado">
+                https://github.com/jhlagado
+              </a>
+            </div>
           </li>
-          <li className="icon-text">
-            <MdLocalPhone />
-            <a href="tel:+61 436 005 419">+61 436 005 419</a>
-          </li>
-          <li className="icon-text">
-            <MdEmail />
-            <a href="mailto:jh@lagado.com">jh@lagado.com</a>
+          <li>
+            <div>
+              <MdAccessTime />
+              <b>Availability:</b> immediate start
+            </div>
+            <div>
+              <MdLocationCity />
+              <b>Preferences:</b> in-office CBD, hybrid or fully remote
+            </div>
+            <div>
+              <MdSearch />
+              <b>Position:</b> permanent or contract
+            </div>
+            <div>
+              <MdLink />
+              <b>LinkedIn:</b>{" "}
+              <a href="https://www.linkedin.com/in/john-hardy-804639b5/">
+                https://www.linkedin.com/in/john-hardy-804639b5/
+              </a>
+            </div>
           </li>
         </ul>
-        <div className="icon-text">
-          <MdLink />
-          <b>GitHub:</b>{" "}
-          <a href="https://github.com/jhlagado">https://github.com/jhlagado</a>
-        </div>
-        <div className="icon-text">
-          <MdLink />
-          <b>LinkedIn:</b>{" "}
-          <a href="https://www.linkedin.com/in/john-hardy-804639b5/">
-            https://www.linkedin.com/in/john-hardy-804639b5/
-          </a>
-        </div>
       </section>
       <section>
         <h3>Professional Summary</h3>
@@ -51,20 +77,20 @@ export const Resume = () => {
             use web applications.
           </li>
           <li>
-            Strong knowledge of agile methodologies, TDD, and continuous
-            delivery for efficient workflow.
-          </li>
-          <li>
             Demonstrated ability to collaborate effectively with diverse teams
             for optimal outcomes.
           </li>
           <li>
-            Committed to accessibility and creating inclusive designs for
-            everyone.
+            Committed to accessibility and creating inclusive user interfaces
+            that can be used by everyone.
           </li>
           <li>
             Always learning and improving, eager to push the boundaries of
             frontend development.
+          </li>
+          <li>
+            Strong knowledge of agile methodologies, TDD, and continuous
+            delivery for efficient workflow.
           </li>
           <li>
             Good communication skills and experience in presentation, mentoring
@@ -77,7 +103,7 @@ export const Resume = () => {
         <ul>
           <li>Accessibility</li>
           <li>Agile</li>
-          <li>API Gateway</li>
+          <li>Apollo</li>
           <li>Automated Testing</li>
           <li>BitBucket</li>
           <li>Chrome extensions</li>
@@ -94,15 +120,16 @@ export const Resume = () => {
           <li>JIRA</li>
           <li>Microservices</li>
           <li>MobX</li>
-          <li>MSW</li>
+          <li>Service Workers</li>
           <li>NextJS</li>
           <li>NodeJS</li>
+          <li>Open API</li>
           <li>Pair Programming</li>
           <li>People Management</li>
           <li>React Router</li>
-          <li>Redux</li>
+          <li>Redux / RTK</li>
           <li>Responsive Design</li>
-          <li>REST</li>
+          <li>REST protocol</li>
           <li>Scrum</li>
           <li>Sprint Planning</li>
           <li>Storybook</li>

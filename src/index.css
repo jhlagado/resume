@@ -28,18 +28,22 @@
       @apply text-2xl text-blue-900 font-extrabold uppercase mb-4 mt-8
     }
 
+    section {
+      break-inside: avoid;
+    }
+
     .bullets {
       @apply list-disc list-inside text-sm
     }
 
     .contact {
       ul {
-        @apply grid grid-cols-3 text-xs font-bold my-4 
+        @apply grid grid-cols-2 text-xs font-bold my-4 
       }
-      li,div {
+      div {
         @apply whitespace-nowrap
       }
-      li,div {
+      div {
         svg {
           @apply text-orange-500 inline-block mr-1 
         }
