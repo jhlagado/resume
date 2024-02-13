@@ -133,7 +133,7 @@ export const Resume = () => {
           <li>Scrum</li>
           <li>Sprint Planning</li>
           <li>Storybook</li>
-          <li>Style Components</li>
+          <li>Styled Components</li>
           <li>SWR</li>
           <li>Tailwind</li>
           <li>TDD</li>
