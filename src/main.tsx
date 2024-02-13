@@ -23,11 +23,11 @@ export const Resume = () => {
           </li>
           <li className="icon-text">
             <MdLocalPhone />
-            +61 436 005 419
+            <a href="tel:+61 436 005 419">+61 436 005 419</a>
           </li>
           <li className="icon-text">
             <MdEmail />
-            jh@lagado.com
+            <a href="mailto:jh@lagado.com">jh@lagado.com</a>
           </li>
         </ul>
         <div className="icon-text">
