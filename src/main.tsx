@@ -24,6 +24,29 @@ export const Resume = () => {
         <ul className="contact">
           <li>
             <div>
+              <b>GitHub:</b>{" "}
+              <a href="https://github.com/jhlagado">
+                https://github.com/jhlagado
+              </a>
+            </div>
+            <div>
+              <b>LinkedIn:</b>{" "}
+              <a href="https://www.linkedin.com/in/john-hardy-804639b5/">
+                https://www.linkedin.com/in/john-hardy-804639b5/
+              </a>
+            </div>
+            <div>
+              <b>Availability:</b> immediate start
+            </div>
+            <div>
+              <b>Position:</b> permanent or contract
+            </div>
+            <div>
+              <b>Preferences:</b> in-office CBD, hybrid or fully remote
+            </div>
+          </li>
+          <li>
+            <div>
               <MdLocationOn />
               <b>Location:</b> Melbourne
             </div>
@@ -40,34 +63,6 @@ export const Resume = () => {
               <b>Status:</b> Australian citizen
             </div>
           </li>
-          <li>
-            <div>
-              <MdAccessTime />
-              <b>Availability:</b> immediate start
-            </div>
-            <div>
-              <MdLocationCity />
-              <b>Preferences:</b> in-office CBD, hybrid or fully remote
-            </div>
-            <div>
-              <MdSearch />
-              <b>Position:</b> permanent or contract
-            </div>
-            <div>
-              <MdLink />
-              <b>GitHub:</b>{" "}
-              <a href="https://github.com/jhlagado">
-                https://github.com/jhlagado
-              </a>
-            </div>
-            <div>
-              <MdLink />
-              <b>LinkedIn:</b>{" "}
-              <a href="https://www.linkedin.com/in/john-hardy-804639b5/">
-                https://www.linkedin.com/in/john-hardy-804639b5/
-              </a>
-            </div>
-          </li>
         </ul>
       </section>
       <section>
@@ -76,9 +71,9 @@ export const Resume = () => {
           I'm an professional frontend developer with over 20 years of
           experience and a proven track-record for delivering high performance
           and easy to use web applications and websites using technologies like
-          React and NextJS. I thrive in collaborative environments, contributing
+          React and NextJS. I enjoy working in collaborative environments, contributing
           to focused teams of engineers on engaging web and mobile web projects.
-          I am experienced in Scaled Agile development methodologies, Test
+          I am experienced in scaled Agile development methodologies, Test
           Driven Development and Continuous Delivery.
         </p>
       </section>
@@ -87,7 +82,6 @@ export const Resume = () => {
         <ul>
           <li>Accessibility</li>
           <li>Agile</li>
-          <li>Apollo</li>
           <li>Chrome extensions</li>
           <li>CSS / Animation</li>
           <li>Git</li>
@@ -97,8 +91,7 @@ export const Resume = () => {
           <li>Javascript</li>
           <li>Jest</li>
           <li>JIRA</li>
-          <li>Leadership</li>
-          <li>Mentoring</li>
+          <li>Mentorship</li>
           <li>MobX</li>
           <li>NextJS</li>
           <li>NodeJS</li>
@@ -113,6 +106,7 @@ export const Resume = () => {
           <li>Swagger</li>
           <li>SWR</li>
           <li>Tailwind</li>
+          <li>Team Leadership</li>
           <li>Test Automation</li>
           <li>Test Driven</li>
           <li>Typescript</li>

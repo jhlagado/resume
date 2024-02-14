@@ -38,7 +38,7 @@
 
     .contact {
       ul {
-        @apply md:flex text-xs font-bold 
+        @apply md:flex text-xs font-bold mt-4
       }
       div {
         @apply whitespace-nowrap font-sans mr-16 my-2
