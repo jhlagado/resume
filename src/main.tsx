@@ -20,16 +20,7 @@ export const Resume = () => {
         <ul className="contact">
           <li>
             <div>
-              <b>GitHub:</b>{" "}
-              <a href="https://github.com/jhlagado">
-                https://github.com/jhlagado
-              </a>
-            </div>
-            <div>
-              <b>LinkedIn:</b>{" "}
-              <a href="https://www.linkedin.com/in/john-hardy-804639b5/">
-                https://www.linkedin.com/in/john-hardy-804639b5/
-              </a>
+              <b>Status:</b> Australian citizen
             </div>
             <div>
               <b>Availability:</b> immediate start
@@ -40,23 +31,29 @@ export const Resume = () => {
             <div>
               <b>Preferences:</b> in-office CBD, hybrid or fully remote
             </div>
+            <div>
+              <b>GitHub:</b>{" "}
+              <a target="_blank" href="https://github.com/jhlagado">
+                https://github.com/jhlagado
+              </a>
+            </div>
+            <div>
+              <b>LinkedIn:</b>{" "}
+              <a target="_blank" href="https://rb.gy/jaa61w">https://rb.gy/jaa61w</a>
+            </div>
           </li>
           <li>
             <div>
               <MdLocationOn />
-              <b>Location:</b> Melbourne
+              Melbourne
             </div>
             <div>
               <MdLocalPhone />
-              <b>Phone:</b> <a href="tel:+61 436 005 419">+61 436 005 419</a>
+              <a href="tel:+61 436 005 419">+61 436 005 419</a>
             </div>
             <div>
               <MdEmail />
-              <b>Email:</b> <a href="mailto:jh@lagado.com">jh@lagado.com</a>
-            </div>
-            <div>
-              <MdLocationSearching />
-              <b>Status:</b> Australian citizen
+              <a href="mailto:jh@lagado.com">jh@lagado.com</a>
             </div>
           </li>
         </ul>
@@ -67,10 +64,10 @@ export const Resume = () => {
           I am a professional frontend developer with over 20 years of
           experience and a proven track-record for delivering high performance
           and easy to use web applications and websites using technologies like
-          React and NextJS. I enjoy working in collaborative environments, contributing
-          to focused teams of engineers on engaging web and mobile web projects.
-          I am experienced in scaled Agile development methodologies, Test
-          Driven Development and Continuous Delivery.
+          React and NextJS. I enjoy working in collaborative environments,
+          contributing to focused teams of engineers on engaging web and mobile
+          web projects. I am experienced in scaled Agile development
+          methodologies, Test Driven Development and Continuous Delivery.
         </p>
       </section>
       <section className="skills">
@@ -249,7 +246,7 @@ export const Resume = () => {
             <MdDiamond size={48} />
             <div>
               <h4>Retro-computing, electronics</h4>
-              <a href="https://github.com/tec1group">
+              <a target="_blank" href="https://github.com/tec1group">
                 https://github.com/tec1group
               </a>
             </div>
@@ -258,7 +255,7 @@ export const Resume = () => {
             <MdSettingsSuggest size={48} />
             <div>
               <h4>Administrator TEC-1 Z80 Computer Group</h4>
-              <a href="https://www.facebook.com/groups/623556744820045/">
+              <a target="_blank" href="https://www.facebook.com/groups/623556744820045/">
                 https://www.facebook.com/groups/623556744820045/
               </a>
             </div>
@@ -267,7 +264,7 @@ export const Resume = () => {
       </section>
       <section className="references">
         <h3>References</h3>
-        <p>Available on request</p> 
+        <p>Available on request</p>
       </section>
     </div>
   );
