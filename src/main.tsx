@@ -38,7 +38,9 @@ export const Resume = () => {
             </div>
             <div>
               <b>LinkedIn:</b>{" "}
-              <a target="_blank" href="https://rb.gy/jaa61w">https://rb.gy/jaa61w</a>
+              <a target="_blank" href="https://rb.gy/jaa61w">
+                https://rb.gy/jaa61w
+              </a>
             </div>
           </li>
           <li>
@@ -62,11 +64,11 @@ export const Resume = () => {
         <p>
           I am a professional frontend developer with over 20 years of
           experience and a proven track-record for delivering high performance
-          and easy to use web applications and websites using technologies like
-          React and NextJS. I enjoy working in collaborative environments,
-          contributing to focused teams of engineers on engaging web and mobile
-          web projects. I am experienced in scaled Agile development
-          methodologies, Test Driven Development and Continuous Delivery.
+          and easy to use web applications using React and other web
+          technologies. I enjoy working in collaborative environments,
+          contributing to focused teams of engineers on engaging web projects. I
+          am experienced in scaled Agile development methodologies, Test Driven
+          Development and Continuous Delivery.
         </p>
       </section>
       <section className="skills">
@@ -254,7 +256,10 @@ export const Resume = () => {
             <MdSettingsSuggest size={48} />
             <div>
               <h4>Administrator TEC-1 Z80 Computer Group</h4>
-              <a target="_blank" href="https://www.facebook.com/groups/623556744820045/">
+              <a
+                target="_blank"
+                href="https://www.facebook.com/groups/623556744820045/"
+              >
                 https://www.facebook.com/groups/623556744820045/
               </a>
             </div>
