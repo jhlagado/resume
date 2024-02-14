@@ -6,12 +6,8 @@ import {
   MdLocationOn,
   MdLocalPhone,
   MdEmail,
-  MdLink,
   MdDiamond,
   MdLocationSearching,
-  MdLocationCity,
-  MdSearch,
-  MdAccessTime,
   MdSettingsSuggest,
 } from "react-icons/md";
 
