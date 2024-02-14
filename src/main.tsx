@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import '@fontsource-variable/montserrat';
 import "./index.css";
 import {
   MdLocationOn,
@@ -38,13 +39,6 @@ export const Resume = () => {
               <MdLocationSearching />
               <b>Status:</b> Australian citizen
             </div>
-            <div>
-              <MdLink />
-              <b>GitHub:</b>{" "}
-              <a href="https://github.com/jhlagado">
-                https://github.com/jhlagado
-              </a>
-            </div>
           </li>
           <li>
             <div>
@@ -58,6 +52,13 @@ export const Resume = () => {
             <div>
               <MdSearch />
               <b>Position:</b> permanent or contract
+            </div>
+            <div>
+              <MdLink />
+              <b>GitHub:</b>{" "}
+              <a href="https://github.com/jhlagado">
+                https://github.com/jhlagado
+              </a>
             </div>
             <div>
               <MdLink />
