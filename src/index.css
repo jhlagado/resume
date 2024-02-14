@@ -5,13 +5,13 @@
 @layer base {
 
   .resume {
+    font-family: 'Montserrat Variable', sans-serif;
     
     & {
-      @apply text-sm px-14 py-20
+      @apply text-sm px-14 py-16
     }
 
     h1, h2, h3, h4, h5 {
-      font-family: 'Montserrat Variable', sans-serif;
     }
 
     a {
@@ -33,15 +33,15 @@
     }
 
     .bullets {
-      @apply list-disc list-inside text-sm
+      @apply list-disc list-inside font-sans font-light leading-5
     }
 
     .contact {
       ul {
-        @apply grid grid-cols-2 text-xs font-bold my-4 
+        @apply flex text-xs font-bold my-4 
       }
       div {
-        @apply whitespace-nowrap
+        @apply whitespace-nowrap font-sans mr-8 my-2
       }
       div {
         svg {
