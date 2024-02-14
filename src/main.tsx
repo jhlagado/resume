@@ -72,32 +72,15 @@ export const Resume = () => {
       </section>
       <section>
         <h3>Professional Summary</h3>
-        <ul className="bullets">
-          <li>
-            Over 20 years of experience building high performance and easy to
-            use web applications.
-          </li>
-          <li>
-            Demonstrated ability to collaborate effectively with diverse teams
-            for optimal outcomes.
-          </li>
-          <li>
-            Committed to accessibility and creating inclusive user interfaces
-            that can be used by everyone.
-          </li>
-          <li>
-            Always learning and improving, eager to push the boundaries of
-            frontend development.
-          </li>
-          <li>
-            Strong knowledge of agile methodologies, TDD, and continuous
-            delivery for efficient workflow.
-          </li>
-          <li>
-            Good communication skills and experience in presentation, mentoring
-            and training others.
-          </li>
-        </ul>
+        <p>
+          I'm an professional frontend developer with over 20 years of
+          experience and a proven track-record for delivering high performance
+          and easy to use web applications and websites using technologies like
+          React and NextJS. I thrive in collaborative environments, contributing
+          to focused teams of engineers on engaging web and mobile web projects.
+          I am experienced in Scaled Agile development methodologies, Test
+          Driven Development and Continuous Delivery.
+        </p>
       </section>
       <section className="skills">
         <h3>Skills</h3>
@@ -107,7 +90,6 @@ export const Resume = () => {
           <li>Apollo</li>
           <li>Chrome extensions</li>
           <li>CSS / Animation</li>
-          <li>D3</li>
           <li>Git</li>
           <li>GraphQL</li>
           <li>GSAP</li>
@@ -120,6 +102,7 @@ export const Resume = () => {
           <li>MobX</li>
           <li>NextJS</li>
           <li>NodeJS</li>
+          <li>Performance</li>
           <li>React Router</li>
           <li>React Testing Library</li>
           <li>Redux / RTK</li>
@@ -294,7 +277,7 @@ export const Resume = () => {
       </section>
       <section className="references">
         <h3>References</h3>
-        <p>Available on request</p>
+        <p>Available on request</p> 
       </section>
     </div>
   );

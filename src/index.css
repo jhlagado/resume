@@ -38,15 +38,13 @@
 
     .contact {
       ul {
-        @apply flex text-xs font-bold 
+        @apply md:flex text-xs font-bold 
       }
       div {
-        @apply whitespace-nowrap font-sans mr-8 my-2
+        @apply whitespace-nowrap font-sans mr-16 my-2
       }
-      div {
-        svg {
-          @apply text-orange-500 inline-block mr-1 
-        }
+      div svg {
+        @apply text-orange-500 inline-block mr-1 
       }
     }
 
@@ -87,19 +85,19 @@
 
     .interests  {
       ul {
-        @apply grid grid-cols-2
+        @apply md:flex
       }
   
       li {
-        @apply grid grid-cols-4
+        @apply flex
       }
       
       svg {
-        @apply mr-1
+        @apply mr-4
       }
   
       div {
-        @apply col-span-3
+        @apply mb-4 mr-4
       }
   
       h4 {
