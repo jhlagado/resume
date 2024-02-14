@@ -105,45 +105,38 @@ export const Resume = () => {
           <li>Accessibility</li>
           <li>Agile</li>
           <li>Apollo</li>
-          <li>Automated Testing</li>
-          <li>BitBucket</li>
           <li>Chrome extensions</li>
-          <li>Continuous Delivery</li>
           <li>CSS / Animation</li>
-          <li>ESLint</li>
+          <li>D3</li>
           <li>Git</li>
-          <li>Github</li>
           <li>GraphQL</li>
-          <li>Harvest</li>
+          <li>GSAP</li>
           <li>HTML</li>
           <li>Javascript</li>
           <li>Jest</li>
           <li>JIRA</li>
-          <li>Microservices</li>
+          <li>Leadership</li>
+          <li>Mentoring</li>
           <li>MobX</li>
-          <li>Service Workers</li>
           <li>NextJS</li>
           <li>NodeJS</li>
-          <li>Open API</li>
-          <li>Pair Programming</li>
-          <li>People Management</li>
           <li>React Router</li>
           <li>Redux / RTK</li>
           <li>Responsive Design</li>
           <li>REST protocol</li>
-          <li>Scrum</li>
-          <li>Sprint Planning</li>
+          <li>Service Workers</li>
           <li>Storybook</li>
-          <li>Styled Components</li>
+          <li>Swagger</li>
           <li>SWR</li>
           <li>Tailwind</li>
-          <li>TDD</li>
-          <li>Team Leadership</li>
+          <li>Test Automation</li>
+          <li>Test Driven</li>
           <li>Typescript</li>
+          <li>UI Components</li>
           <li>User stories</li>
           <li>Vite / Vitest</li>
+          <li>WAI WCAG 2</li>
           <li>Web development</li>
-          <li>WCAG</li>
         </ul>
       </section>
       <section className="experience">
