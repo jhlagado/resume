@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import '@fontsource-variable/montserrat';
+import "@fontsource-variable/montserrat";
 import "./index.css";
 import {
   MdLocationOn,
@@ -121,6 +121,7 @@ export const Resume = () => {
           <li>NextJS</li>
           <li>NodeJS</li>
           <li>React Router</li>
+          <li>React Testing Library</li>
           <li>Redux / RTK</li>
           <li>Responsive Design</li>
           <li>REST protocol</li>
