@@ -64,7 +64,7 @@ export const Resume = () => {
       <section>
         <h3>Professional Summary</h3>
         <p>
-          I'm an professional frontend developer with over 20 years of
+          I am an professional frontend developer with over 20 years of
           experience and a proven track-record for delivering high performance
           and easy to use web applications and websites using technologies like
           React and NextJS. I enjoy working in collaborative environments, contributing
