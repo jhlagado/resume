@@ -6,7 +6,7 @@
 
   .resume {
     font-family: 'Montserrat Variable', sans-serif;
-    max-width: 900px;
+    max-width: 1000px;
     
     & {
       @apply text-sm px-14 py-16
