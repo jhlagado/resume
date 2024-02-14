@@ -7,7 +7,6 @@ import {
   MdLocalPhone,
   MdEmail,
   MdDiamond,
-  MdLocationSearching,
   MdSettingsSuggest,
 } from "react-icons/md";
 
