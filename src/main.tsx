@@ -25,12 +25,6 @@ export const Resume = () => {
               <b>Availability:</b> immediate start
             </div>
             <div>
-              <b>Position:</b> permanent or contract
-            </div>
-            <div>
-              <b>Preferences:</b> in-office CBD, hybrid or fully remote
-            </div>
-            <div>
               <b>GitHub:</b>{" "}
               <a target="_blank" href="https://github.com/jhlagado">
                 https://github.com/jhlagado
@@ -116,7 +110,7 @@ export const Resume = () => {
         <article>
           <dl>
             <dt>
-              <h4 className="">07/2020 - 01/2023</h4>
+              <h4 className="">07/2020 - 01/2024</h4>
               <h5>Melbourne</h5>
             </dt>
             <dd className="col-span-3 border-l pl-4">
