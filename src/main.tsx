@@ -14,15 +14,12 @@ export const Resume = () => {
   return (
     <div className="resume">
       <section className="contact">
-        <h1 className="">John Hardy</h1>
-        <h2 className="">Senior Frontend Developer</h2>
+        <h1>John Hardy</h1>
+        <h2>Senior Frontend Developer</h2>
         <ul className="contact">
           <li>
             <div>
               <b>Status:</b> Australian citizen
-            </div>
-            <div>
-              <b>Availability:</b> immediate start
             </div>
             <div>
               <b>GitHub:</b>{" "}
@@ -83,6 +80,7 @@ export const Resume = () => {
           <li>MobX</li>
           <li>NextJS</li>
           <li>NodeJS</li>
+          <li>Nuxt</li>
           <li>Performance</li>
           <li>React Router</li>
           <li>React Testing Library</li>
@@ -101,8 +99,10 @@ export const Resume = () => {
           <li>UI Components</li>
           <li>User stories</li>
           <li>Vite / Vitest</li>
+          <li>Vue 2 & 3 </li>
+          <li>Vuex</li>
           <li>WAI WCAG 2</li>
-          <li>Web development</li>
+          <li>Web Efficiency</li>
         </ul>
       </section>
       <section className="experience">
@@ -110,55 +110,165 @@ export const Resume = () => {
         <article>
           <dl>
             <dt>
-              <h4 className="">07/2020 - 01/2024</h4>
+              <h4>03/2024 - Present</h4>
+              <h5>Melbourne</h5>
+              <p>John A Hardy P/L</p>
+              <p><i>Contractor</i></p>
+            </dt>
+            <dd className="col-span-3 border-l pl-4">
+              <h4>Core Frontend Developer</h4>
+              <h5>Digital Channel Operations, Melbourne university</h5>
+              <p>
+                At the University of Melbourne’s Digital Channel Operations, I
+                contributed to the upgrade of the <em>Pursuit</em> online
+                magazine, focusing on enhancing front-end components and
+                optimizing performance. My work involved improving page load
+                times, rendering efficiency, and ensuring responsiveness and
+                accessibility across devices.
+              </p>
+              <p>
+                A key aspect of my role was optimizing for Google Web Vitals.
+                This included refining critical rendering paths, optimizing
+                JavaScript and CSS delivery, and addressing performance
+                bottlenecks. I collaborated with backend developers and
+                designers to implement lazy loading and efficient content
+                rendering, leading to improvements in Web Vitals metrics such as
+                FCP and LCP.
+              </p>
+              <p>
+                I also contributed to improving the accessibility of the{" "}
+                <em>Pursuit</em> site, ensuring compliance with WCAG standards.
+                This involved implementing features such as keyboard navigation,
+                proper color contrast, and screen reader support, making the
+                site more inclusive.
+              </p>
+              <p>
+                Beyond <em>Pursuit</em>, I worked on the upgrade of the
+                University’s component library, which is used across critical
+                systems like "Study" and "Find a Course." This project focused
+                on enhancing the library’s reusability, maintainability, and
+                performance, ensuring a consistent user experience across the
+                university’s digital platforms.
+              </p>
+              <p>
+                Additionally, I supported the development of the university's
+                visual identity project, ensuring that front-end components
+                aligned with the updated branding guidelines, contributing to a
+                cohesive and professional digital experience.
+              </p>
+              <ul className="bullets">
+                <li>
+                  Developed front-end components using Vue.js, Vuex, and Nuxt
+                  for high-performance web applications.
+                </li>
+                <li>
+                  Optimized app performance with Nuxt.js (SSR) and Vite for
+                  faster builds and improved development workflows.
+                </li>
+                <li>
+                  Ensured reliability with Vue Testing Library for comprehensive
+                  test coverage.
+                </li>
+                <li>
+                  Collaborated on the creation of reusable UI components,
+                  maintaining consistency across projects.
+                </li>
+                <li>
+                  Mentoring, code reviews, communication with stake holders
+                </li>
+              </ul>
+            </dd>
+            <dt>
+              <h4>07/2020 - 01/2024</h4>
               <h5>Melbourne</h5>
             </dt>
             <dd className="col-span-3 border-l pl-4">
-              <h4 className="">Senior Frontend Developer & Squad Lead</h4>
-              <h5 className="">Workjam</h5>
+              <h4>Senior Frontend Developer & Squad Lead</h4>
+              <h5>Workjam</h5>
+              <p>
+                As a Senior Frontend Developer & Squad Lead at Workjam, I led a
+                multi-disciplinary team of up to 15 developers, overseeing the
+                delivery of web applications for frontline workforce management.
+                I was responsible for managing daily agile ceremonies, including
+                sprint planning, project refinement, and estimation, while
+                maintaining clear communication with product owners and
+                stakeholders across multiple time zones.
+              </p>
+              <p>
+                In collaboration with fellow engineers, I utilized technologies
+                such as React, Tailwind, and Storybook to build and maintain a
+                UI component library that supported consistent design and
+                reusable components across the application. We leveraged state
+                management tools like Redux, MobX, and GraphQL to maintain
+                application efficiency and scalability. Server-side rendering
+                with NextJS was also a key technology in our stack, improving
+                both performance and SEO. To ensure robust code quality, the
+                team worked with Jest and React Testing Library for unit testing
+                and test coverage.
+              </p>
+              <p>
+                On the people management side, I conducted regular performance
+                assessments and provided actionable feedback to align individual
+                goals with team objectives. I worked closely with developers to
+                support their technical growth and career development, offering
+                mentorship when needed. My focus was on maintaining a
+                collaborative environment where developers had the resources and
+                direction to meet their professional goals and contribute to the
+                team's success.
+              </p>
+              <p>
+                By fostering open communication and promoting collaborative
+                development practices, such as code reviews and pair
+                programming, we ensured the team maintained high technical
+                standards and worked effectively together to achieve project
+                goals. This approach to leadership and technical execution
+                contributed to the successful delivery of complex projects
+                aligned with organizational objectives.
+              </p>
               <ul className="bullets">
                 <li>
-                  Built and maintained high-performing web apps for a frontline
-                  worker management system
+                  Built and maintained high-performance web apps for frontline
+                  worker management
                 </li>
                 <li>
-                  Helped build UI library of reusable components in React,
-                  Tailwind and Storybook
+                  Developed UI component library using React, Tailwind, and
+                  Storybook
+                </li>
+                <li>Managed application state with Redux, MobX, and GraphQL</li>
+                <li>
+                  Implemented unit testing with Jest and React Test Library
+                </li>
+                <li>Handled server communication via REST and GraphQL BFF</li>
+                <li>
+                  Utilized server-side rendering with Next.js for performance
+                  optimization
                 </li>
                 <li>
-                  Managed web application state using Redux, MobX and GraphQL
-                </li>
-                <li>
-                  Ensured unit test coverage using Jest and React Test Library
-                </li>
-                <li>Server communication with REST and GraphQL BFF</li>
-                <li>Server-side rendering with NextJS</li>
-                <li>
-                  Collaborated with architects, designers, & backend developers
+                  Collaborated with cross-functional teams, including
+                  architects, designers, and backend developers
                 </li>
                 <li>
                   Coordinated with international teams across multiple time
                   zones
                 </li>
                 <li>
-                  Served as lead for a team for a multi-disciplinary squad of 7
-                  developers
+                  Led a multi-disciplinary team of up to 7 developers, managing
+                  agile processes
                 </li>
                 <li>
-                  Engaged in sprint planning, feature estimation, design review,
-                  & task breakdown
+                  Mentored developers and conducted onboarding, code reviews,
+                  and performance assessments
                 </li>
                 <li>
-                  Mentored developers, initiated onboarding and conducting code
-                  reviews
+                  Provided people management, goal setting, and career guidance
                 </li>
-                <li>People management, goal setting and career guidance</li>
-              </ul>
+              </ul>{" "}
             </dd>
             <dt>
               <h4>03/2017 - 07/2020</h4>
               <h5>Melbourne</h5>
-              Cognizant
+              <p>Cognizant</p>
+              <p><i>Consultant</i></p>
             </dt>
             <dd>
               <h4>Nab: Stargaze Project - API Gateway</h4>
