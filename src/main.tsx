@@ -117,7 +117,7 @@ export const Resume = () => {
             </dt>
             <dd className="col-span-3 border-l pl-4">
               <h4>Core Frontend Developer</h4>
-              <h5>Digital Channel Operations, Melbourne university</h5>
+              <h5>Digital Channel Operations, Melbourne University</h5>
               <p>
                 At the University of Melbourne’s Digital Channel Operations, I
                 contributed to the upgrade of the <em>Pursuit</em> online
