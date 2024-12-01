@@ -152,7 +152,7 @@ export const Resume = () => {
               </p>
               <p>
                 Additionally, I supported the development of the university's
-                visual identity project, ensuring that front-end components
+                Visual Identity project, ensuring that front-end components
                 aligned with the updated branding guidelines, contributing to a
                 cohesive and professional digital experience.
               </p>
