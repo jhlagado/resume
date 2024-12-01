@@ -7,7 +7,7 @@
   .resume {
     font-family: 'Montserrat Variable', sans-serif;
     max-width: 1000px;
-    
+
     & {
       @apply text-sm px-14 py-16
     }
@@ -25,12 +25,22 @@
     h2 {
       @apply text-xl text-orange-500 font-extrabold
     }
-    h3 { 
+    h3 {
       @apply text-2xl text-blue-900 font-extrabold uppercase mb-4 mt-8
     }
 
     section {
       break-inside: avoid;
+    }
+
+    p {
+      margin: 0 0 1em 0; /* Adds space below each paragraph */
+      font-size: 1rem;    /* Default font size, typically 16px */
+      line-height: 1.5;   /* Ensures good line spacing for readability */
+      color: #333;        /* A dark color for good contrast */
+      font-family: "Arial", sans-serif; /* A clean sans-serif font */
+      word-wrap: break-word; /* Ensures long words break to avoid overflow */
+      text-align: left;    /* Align text to the left by default */
     }
 
     .bullets {
@@ -45,7 +55,7 @@
         @apply whitespace-nowrap font-sans mr-28 my-2
       }
       div svg {
-        @apply text-orange-500 inline-block mr-1 
+        @apply text-orange-500 inline-block mr-1
       }
     }
 
@@ -75,32 +85,32 @@
         h4 {
           @apply text-blue-900 text-xl font-medium
         }
-  
+
         h5 {
           @apply text-orange-600 text-lg font-semibold mb-1
         }
         @apply col-span-3 border-l border-l-slate-500 pl-4 mb-6
       }
-  
+
     }
 
     .interests  {
       ul {
         @apply md:flex
       }
-  
+
       li {
         @apply flex
       }
-      
+
       svg {
         @apply mr-4
       }
-  
+
       div {
         @apply mb-4 mr-4
       }
-  
+
       h4 {
         @apply text-blue-900 text-xl font-medium
       }
