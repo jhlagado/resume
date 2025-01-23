@@ -152,7 +152,7 @@ export const Resume = () => {
                 maintainability, and performance to ensure consistent user
                 experience across digital platforms.
               </p>
-              <ul class="bullets">
+              <ul className="bullets">
                 <li>
                   Developed front-end components for high-performance web
                   applications
