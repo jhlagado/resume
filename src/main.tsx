@@ -76,7 +76,7 @@ export const Resume = () => {
           <li>Javascript</li>
           <li>Jest</li>
           <li>JIRA</li>
-          <li>Mentorship</li>
+          <li>Mentoring</li>
           <li>MobX</li>
           <li>NextJS</li>
           <li>NodeJS</li>
@@ -89,6 +89,7 @@ export const Resume = () => {
           <li>REST protocol</li>
           <li>Service Workers</li>
           <li>Storybook</li>
+          <li>Styled Components</li>
           <li>Swagger</li>
           <li>SWR</li>
           <li>Tailwind</li>
@@ -122,18 +123,20 @@ export const Resume = () => {
                 At the University of Melbourne’s Digital Channel Operations, I
                 contributed to the upgrade of the <em>Pursuit</em> online
                 magazine, focusing on enhancing front-end components and
-                optimizing performance. My work involved improving page load
-                times, rendering efficiency, and ensuring responsiveness and
-                accessibility across devices.
+                optimizing performance. My work involved improving writing
+                components to enhance the visual appeal and interactivity of
+                tier 3 articles. This included quizzes, video and parallax
+                backdrops and animated effects.
               </p>
               <p>
-                A key aspect of my role was optimizing for Google Web Vitals.
-                This included refining critical rendering paths, optimizing
-                JavaScript and CSS delivery, and addressing performance
-                bottlenecks. I collaborated with backend developers and
-                designers to implement lazy loading and efficient content
-                rendering, leading to improvements in Web Vitals metrics such as
-                FCP and LCP.
+                A key aspect of my role was in modernising the University's
+                component library as well as working on reducing page load
+                times, improving rendering efficiency and ensuring responsiveness
+                across all devices. This included refining critical
+                rendering paths, optimizing JavaScript and CSS delivery,
+                and addressing performance bottlenecks. I collaborated with backend
+                developers and designers to implement efficient content
+                rendering and improving performance using Google's Web Vitals metrics.
               </p>
               <p>
                 I also contributed to improving the accessibility of the{" "}
