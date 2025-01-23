@@ -9,7 +9,6 @@ import {
   MdDiamond,
   MdSettingsSuggest,
 } from "react-icons/md";
-
 export const Resume = () => {
   return (
     <div className="resume">
@@ -22,13 +21,13 @@ export const Resume = () => {
               <b>Status:</b> Australian citizen
             </div>
             <div>
-              <b>GitHub:</b>{" "}
+              <b>GitHub:</b>
               <a target="_blank" href="https://github.com/jhlagado">
                 https://github.com/jhlagado
               </a>
             </div>
             <div>
-              <b>LinkedIn:</b>{" "}
+              <b>LinkedIn:</b>
               <a target="_blank" href="https://rb.gy/jaa61w">
                 https://rb.gy/jaa61w
               </a>
@@ -114,70 +113,61 @@ export const Resume = () => {
               <h4>03/2024 - Present</h4>
               <h5>Melbourne</h5>
               <p>John A Hardy P/L</p>
-              <p><i>Contractor</i></p>
+              <p>
+                <i>Contractor</i>
+              </p>
             </dt>
             <dd className="col-span-3 border-l pl-4">
               <h4>Core Frontend Developer</h4>
               <h5>Digital Channel Operations, Melbourne University</h5>
               <p>
                 At the University of Melbourne’s Digital Channel Operations, I
-                contributed to the upgrade of the <em>Pursuit</em> online
-                magazine, focusing on enhancing front-end components and
-                optimizing performance. My work involved improving writing
-                components to enhance the visual appeal and interactivity of
-                tier 3 articles. This included quizzes, video and parallax
-                backdrops and animated effects.
+                contributed to upgrading the <em>Pursuit</em> online magazine,
+                focusing on enhancing front-end components and optimizing
+                performance. My work involved improving content authoring
+                components to boost visual appeal and interactivity of tier 3
+                articles, including quizzes, video and parallax backdrops, and
+                animated effects.
               </p>
               <p>
-                A key aspect of my role was in modernising the University's
-                component library as well as working on reducing page load
-                times, improving rendering efficiency and ensuring responsiveness
-                across all devices. This included refining critical
-                rendering paths, optimizing JavaScript and CSS delivery,
-                and addressing performance bottlenecks. I collaborated with backend
-                developers and designers to implement efficient content
-                rendering and improving performance using Google's Web Vitals metrics.
+                A key aspect of my role was modernizing the University's
+                component library while reducing page load times, improving
+                rendering efficiency, and ensuring responsiveness across
+                devices. This included refining critical rendering paths,
+                optimizing JavaScript and CSS delivery, and addressing
+                performance bottlenecks. I collaborated with backend developers
+                and designers to implement efficient content rendering and
+                improve performance using Google's Web Vitals metrics.
               </p>
               <p>
-                I also contributed to improving the accessibility of the{" "}
-                <em>Pursuit</em> site, ensuring compliance with WCAG standards.
-                This involved implementing features such as keyboard navigation,
-                proper color contrast, and screen reader support, making the
-                site more inclusive.
+                I also enhanced accessibility for the <em>Pursuit</em> site,
+                ensuring WCAG compliance through features like keyboard
+                navigation, proper color contrast ratios, and screen reader
+                support.
               </p>
               <p>
-                Beyond <em>Pursuit</em>, I worked on the upgrade of the
-                University’s component library, which is used across critical
-                systems like "Study" and "Find a Course." This project focused
-                on enhancing the library’s reusability, maintainability, and
-                performance, ensuring a consistent user experience across the
-                university’s digital platforms.
+                Beyond <em>Pursuit</em>, I helped upgrade the University’s
+                component library used across critical systems like "Study" and
+                "Find a Course." This project focused on improving reusability,
+                maintainability, and performance to ensure consistent user
+                experience across digital platforms.
               </p>
-              <p>
-                Additionally, I supported the development of the university's
-                Visual Identity project, ensuring that front-end components
-                aligned with the updated branding guidelines, contributing to a
-                cohesive and professional digital experience.
-              </p>
-              <ul className="bullets">
+              <ul class="bullets">
                 <li>
-                  Developed front-end components using Vue.js, Vuex, and Nuxt
-                  for high-performance web applications.
+                  Developed front-end components for high-performance web
+                  applications
                 </li>
                 <li>
-                  Optimized app performance with Nuxt.js (SSR) and Vite for
-                  faster builds and improved development workflows.
+                  Ensured reliability through comprehensive testing with Vue
+                  Testing Library
                 </li>
                 <li>
-                  Ensured reliability with Vue Testing Library for comprehensive
-                  test coverage.
+                  Created reusable UI components to maintain cross-project
+                  consistency
                 </li>
                 <li>
-                  Collaborated on the creation of reusable UI components,
-                  maintaining consistency across projects.
-                </li>
-                <li>
-                  Mentoring, code reviews, communication with stake holders
+                  Mentored team members, conducted code reviews, and
+                  communicated with stakeholders
                 </li>
               </ul>
             </dd>
@@ -186,92 +176,79 @@ export const Resume = () => {
               <h5>Melbourne</h5>
             </dt>
             <dd className="col-span-3 border-l pl-4">
-              <h4>Senior Frontend Developer & Squad Lead</h4>
-              <h5>Workjam</h5>
+              <h4>Senior Frontend Developer</h4> <h5>Workjam</h5>
               <p>
-                As a Senior Frontend Developer & Squad Lead at Workjam, I led a
-                multi-disciplinary team of up to 15 developers, overseeing the
-                delivery of web applications for frontline workforce management.
-                I was responsible for managing daily agile ceremonies, including
-                sprint planning, project refinement, and estimation, while
-                maintaining clear communication with product owners and
-                stakeholders across multiple time zones.
+                As a Senior Frontend Developer at Workjam, I led technical
+                implementation for web applications supporting frontline
+                workforce management. While coordinating with cross-functional
+                teams, my primary focus was driving frontend architecture using
+                React, Tailwind, and modern web development practices.
               </p>
               <p>
-                In collaboration with fellow engineers, I utilized technologies
-                such as React, Tailwind, and Storybook to build and maintain a
-                UI component library that supported consistent design and
-                reusable components across the application. We leveraged state
-                management tools like Redux, MobX, and GraphQL to maintain
-                application efficiency and scalability. Server-side rendering
-                with NextJS was also a key technology in our stack, improving
-                both performance and SEO. To ensure robust code quality, the
-                team worked with Jest and React Testing Library for unit testing
-                and test coverage.
+                I spearheaded the development and maintenance of a UI component
+                library using React, Tailwind CSS, and Storybook. This library
+                established consistent design patterns across applications while
+                enabling component reuse. Implemented state management solutions
+                using Redux and MobX to handle complex application workflows,
+                integrated with GraphQL for efficient data fetching and API
+                interactions.
               </p>
               <p>
-                On the people management side, I conducted regular performance
-                assessments and provided actionable feedback to align individual
-                goals with team objectives. I worked closely with developers to
-                support their technical growth and career development, offering
-                mentorship when needed. My focus was on maintaining a
-                collaborative environment where developers had the resources and
-                direction to meet their professional goals and contribute to the
-                team's success.
+                Optimized application performance through Next.js server-side
+                rendering implementation, improving both load times and SEO
+                outcomes. Established testing standards using Jest and React
+                Testing Library to ensure code reliability, with particular
+                focus on critical user flows and interaction patterns.
               </p>
               <p>
-                By fostering open communication and promoting collaborative
-                development practices, such as code reviews and pair
-                programming, we ensured the team maintained high technical
-                standards and worked effectively together to achieve project
-                goals. This approach to leadership and technical execution
-                contributed to the successful delivery of complex projects
-                aligned with organizational objectives.
+                Collaborated with engineers to implement full-stack features
+                including real-time updates and mobile-responsive interfaces.
+                Integrated the component library with backend services to
+                support scalable solutions for shift management, scheduling, and
+                workforce communication features.
+              </p>
+              <p>
+                Mentored developers on React best practices and modern frontend
+                patterns through code reviews and pair programming sessions.
+                Facilitated technical alignment across teams by documenting
+                architecture decisions and maintaining CI/CD pipelines for
+                efficient deployment processes.
+              </p>
+              <p>
+                Worked closely with product teams to translate business
+                requirements into technical specifications, particularly for
+                features requiring complex state management and cross-device
+                compatibility. Maintained performance benchmarks using core web
+                vitals metrics while ensuring accessibility compliance across
+                all user interfaces.
               </p>
               <ul className="bullets">
                 <li>
-                  Built and maintained high-performance web apps for frontline
-                  worker management
+                  Built high-performance React apps for frontline workforce management
                 </li>
                 <li>
-                  Developed UI component library using React, Tailwind, and
-                  Storybook
-                </li>
-                <li>Managed application state with Redux, MobX, and GraphQL</li>
-                <li>
-                  Implemented unit testing with Jest and React Test Library
-                </li>
-                <li>Handled server communication via REST and GraphQL BFF</li>
-                <li>
-                  Utilized server-side rendering with Next.js for performance
-                  optimization
+                  Developed React/Tailwind UI component library with Storybook
                 </li>
                 <li>
-                  Collaborated with cross-functional teams, including
-                  architects, designers, and backend developers
+                  Architected state management using Redux, MobX, and GraphQL
                 </li>
                 <li>
-                  Coordinated with international teams across multiple time
-                  zones
+                  Implemented testing with Jest/React Testing Library
                 </li>
                 <li>
-                  Led a multi-disciplinary team of up to 7 developers, managing
-                  agile processes
+                  Optimized performance via Next.js SSR and REST/GraphQL APIs
                 </li>
                 <li>
-                  Mentored developers and conducted onboarding, code reviews,
-                  and performance assessments
-                </li>
-                <li>
-                  Provided people management, goal setting, and career guidance
-                </li>
-              </ul>{" "}
+                  Collaborated with cross-functional and international teams
+                </li>              </ul>
             </dd>
             <dt>
               <h4>03/2017 - 07/2020</h4>
               <h5>Melbourne</h5>
               <p>Cognizant</p>
-              <p><i>Consultant</i></p>
+              <p>
+                <i>Consultant</i>
+              </p>
             </dt>
             <dd>
               <h4>Nab: Stargaze Project - API Gateway</h4>
@@ -380,7 +357,6 @@ export const Resume = () => {
     </div>
   );
 };
-
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <Resume />
