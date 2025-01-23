@@ -176,45 +176,25 @@ export const Resume = () => {
               <h5>Melbourne</h5>
             </dt>
             <dd className="col-span-3 border-l pl-4">
-              <h4>Senior Frontend Developer</h4> <h5>Workjam</h5>
+              <h4>Senior Frontend Developer</h4>
+              <h5>Workjam</h5>
               <p>
-                As a Senior Frontend Developer at Workjam, I led technical
-                implementation for web applications supporting frontline
-                workforce management. While coordinating with cross-functional
-                teams, my primary focus was driving frontend architecture using
-                React, Tailwind, and modern web development practices.
+                At Workjam, I led development of web applications for frontline workforce management,
+                focusing on React architecture and performance optimization. My technical leadership
+                spanned the full development lifecycle while maintaining alignment with product teams
+                across multiple time zones.
               </p>
               <p>
-                I contributed to the development of a UI component
-                library using React, Tailwind CSS, and Storybook. This library
-                established consistent design patterns across applications while
-                enabling component reuse. Migrated state management solutions
-                from Redux and MobX to GraphQL for more efficient data fetching
-                and API interactions.
+                I architected a UI component library using React, Tailwind, and Storybook to enforce
+                design consistency and enable component reuse. Implemented state management solutions
+                with Redux, MobX, and GraphQL to ensure application scalability. Optimized performance
+                through Next.js server-side rendering and established testing standards using Jest
+                and React Testing Library.
               </p>
               <p>
-                Optimized application performance through Next.js server-side
-                rendering implementation, improving both load times and SEO
-                outcomes. Established testing standards using Jest and React
-                Testing Library to ensure code reliability, with particular
-                focus on critical user flows and interaction patterns.
-              </p>
-              <p>
-                Collaborated with engineers to implement full-stack features
-                including real-time updates and mobile-responsive interfaces.
-                Integrated the component library with backend services to
-                support scalable solutions for shift management, scheduling, and
-                workforce communication features.
-              </p>
-              <p>
-                I mentored junior developers on React best practices and modern frontend
-                patterns through code reviews and pair programming sessions. I also
-                worked closely with product teams to translate business
-                requirements into technical specifications, particularly for
-                features requiring complex state management and cross-device
-                compatibility. Maintained performance benchmarks using core web
-                vitals metrics while ensuring accessibility compliance across
-                all user interfaces.
+                Drove technical excellence through code reviews and collaborative practices like
+                pair programming. Mentored developers on modern frontend patterns while shipping
+                complex features for enterprise-scale workforce management systems.
               </p>
               <ul className="bullets">
                 <li>
