@@ -185,13 +185,12 @@ export const Resume = () => {
                 React, Tailwind, and modern web development practices.
               </p>
               <p>
-                I spearheaded the development and maintenance of a UI component
+                I contributed to the development of a UI component
                 library using React, Tailwind CSS, and Storybook. This library
                 established consistent design patterns across applications while
-                enabling component reuse. Implemented state management solutions
-                using Redux and MobX to handle complex application workflows,
-                integrated with GraphQL for efficient data fetching and API
-                interactions.
+                enabling component reuse. Migrated state management solutions
+                from Redux and MobX to GraphQL for more efficient data fetching
+                and API interactions.
               </p>
               <p>
                 Optimized application performance through Next.js server-side
@@ -208,14 +207,9 @@ export const Resume = () => {
                 workforce communication features.
               </p>
               <p>
-                Mentored developers on React best practices and modern frontend
-                patterns through code reviews and pair programming sessions.
-                Facilitated technical alignment across teams by documenting
-                architecture decisions and maintaining CI/CD pipelines for
-                efficient deployment processes.
-              </p>
-              <p>
-                Worked closely with product teams to translate business
+                I mentored junior developers on React best practices and modern frontend
+                patterns through code reviews and pair programming sessions. I also
+                worked closely with product teams to translate business
                 requirements into technical specifications, particularly for
                 features requiring complex state management and cross-device
                 compatibility. Maintained performance benchmarks using core web
