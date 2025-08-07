@@ -187,6 +187,9 @@ export const Resume = () => {
               <h4>07/2020 – 01/2024</h4>
               <h5>Melbourne</h5>
               <p>Workjam</p>
+              <p>
+                <i>Employee</i>
+              </p>
             </dt>
             <dd className="col-span-3 border-l pl-4">
               <h4>Senior Frontend Developer</h4>
@@ -212,16 +215,15 @@ export const Resume = () => {
                 </li>
               </ul>
             </dd>
-
             <dt>
-              <h4>03/2017 – 07/2020</h4>
+              <h4>03/2017 – 07/2018</h4>
               <h5>Melbourne</h5>
               <p>Cognizant</p>
               <p>
                 <i>Consultant</i>
               </p>
             </dt>
-            <dd>
+            <dd className="col-span-3 border-l pl-4">
               <h4>NAB: Stargaze Project – API Gateway</h4>
               <h5>Senior Analyst and Frontend Developer</h5>
               <p>
@@ -232,7 +234,15 @@ export const Resume = () => {
                 backend authentication integration.
               </p>
             </dd>
-            <dd>
+            <dt>
+              <h4>03/2018 – 07/2020</h4>
+              <h5>Melbourne</h5>
+              <p>Cognizant</p>
+              <p>
+                <i>Consultant</i>
+              </p>
+            </dt>
+            <dd className="col-span-3 border-l pl-4">
               <h4>NAB Connect</h4>
               <h5>Senior Analyst and Frontend Developer</h5>
               <p>
@@ -242,14 +252,17 @@ export const Resume = () => {
                 stakeholders.
               </p>
             </dd>
-
             <dt>
               <h4>01/2013 – 03/2017</h4>
               <h5>Adelaide</h5>
               <p>XAPIApps</p>
+              <p>
+                <i>Employee</i>
+              </p>
             </dt>
-            <dd>
+            <dd className="col-span-3 border-l pl-4">
               <h4>Lead Frontend Developer</h4>
+              <h5>XAPIApps</h5>
               <p>
                 Led frontend architecture and UI design for training and
                 analytics tools. Worked with product, UX, and dev teams to build
@@ -259,12 +272,16 @@ export const Resume = () => {
             </dd>
 
             <dt>
-              <h4>2004 – 2012</h4>
+              <h4>01/2004 – 12/2012</h4>
               <h5>Melbourne</h5>
               <p>Lagado Partners</p>
+              <p>
+                <i>Principal and Partner</i>
+              </p>
             </dt>
-            <dd>
+            <dd className="col-span-3 border-l pl-4">
               <h4>Principal and Partner</h4>
+              <h5>Lagado Partners</h5>
               <p>
                 Built and maintained CMS for Crikey.com.au, enabling journalists
                 to self-publish articles and newsletters. Also led UI
