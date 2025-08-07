@@ -9,6 +9,7 @@ import {
   MdDiamond,
   MdSettingsSuggest,
 } from "react-icons/md";
+
 export const Resume = () => {
   return (
     <div className="resume">
@@ -49,68 +50,81 @@ export const Resume = () => {
           </li>
         </ul>
       </section>
+
       <section>
         <h3>Professional Summary</h3>
         <p>
-          I am a professional frontend developer with over 20 years of
-          experience and a proven track-record for delivering high performance
-          and easy to use web applications using React and other web
-          technologies. I enjoy working in collaborative environments,
-          contributing to focused teams of engineers on engaging web projects. I
-          am experienced in scaled Agile development methodologies, Test Driven
-          Development and Continuous Delivery.
+          I'm a frontend developer with over 20 years of experience delivering
+          high-performance, user-friendly web applications using React and
+          related technologies. I thrive in collaborative environments and enjoy
+          contributing to focused engineering teams working on meaningful
+          projects. I bring deep experience in Agile development at scale, with
+          a strong emphasis on test-driven development and continuous delivery.
         </p>
       </section>
+
       <section className="skills">
         <h3>Skills</h3>
         <ul>
           <li>Accessibility</li>
+          <li>WAI</li>
+          <li>WCAG 2</li>
           <li>Agile</li>
-          <li>Chrome extensions</li>
-          <li>CSS / Animation</li>
-          <li>Git</li>
-          <li>GraphQL</li>
+          <li>User Stories</li>
+          <li>AI Tooling</li>
+          <li>Amazon Q</li>
+          <li>GitHub Copilot</li>
+          <li>Chrome Extensions</li>
+          <li>CSS</li>
+          <li>Animation</li>
           <li>GSAP</li>
-          <li>HTML</li>
-          <li>Javascript</li>
-          <li>Jest</li>
+          <li>Tailwind</li>
+          <li>Git</li>
           <li>JIRA</li>
+          <li>GraphQL</li>
+          <li>REST</li>
+          <li>HTML</li>
+          <li>JavaScript</li>
+          <li>Typescript</li>
+          <li>Jest</li>
+          <li>React Testing Library</li>
+          <li>Vue Testing Library</li>
           <li>Mentoring</li>
+          <li>Team Leadership</li>
           <li>MobX</li>
           <li>NextJS</li>
-          <li>NodeJS</li>
           <li>Nuxt</li>
+          <li>NodeJS</li>
           <li>Performance</li>
+          <li>Web Efficiency</li>
+          <li>Playwright</li>
+          <li>Vitest</li>
+          <li>React</li>
           <li>React Router</li>
-          <li>React Testing Library</li>
-          <li>Redux / RTK</li>
+          <li>Redux</li>
+          <li>Redux Toolkit</li>
           <li>Responsive Design</li>
-          <li>REST protocol</li>
           <li>Service Workers</li>
           <li>Storybook</li>
           <li>Styled Components</li>
-          <li>Swagger</li>
           <li>SWR</li>
-          <li>Tailwind</li>
-          <li>Team Leadership</li>
+          <li>Swagger</li>
           <li>Test Automation</li>
-          <li>Test Driven</li>
-          <li>Typescript</li>
+          <li>Test Driven Development</li>
           <li>UI Components</li>
-          <li>User stories</li>
-          <li>Vite / Vitest</li>
-          <li>Vue 2 & 3 </li>
+          <li>Vite</li>
+          <li>Vue 2</li>
+          <li>Vue 3</li>
           <li>Vuex</li>
-          <li>WAI WCAG 2</li>
-          <li>Web Efficiency</li>
         </ul>
       </section>
+
       <section className="experience">
         <h3>Experience</h3>
         <article>
           <dl>
             <dt>
-              <h4>04/2024 - Present</h4>
+              <h4>04/2024 – Present</h4>
               <h5>Melbourne</h5>
               <p>National Australia Bank</p>
               <p>
@@ -121,27 +135,23 @@ export const Resume = () => {
               <h4>Senior Analyst Engineer (Frontend)</h4>
               <h5>Customer Identity Service, NAB</h5>
               <p>
-                After returning to NAB, I joined the DAF (Digital Assistance &
-                Fraud) stream, contributing to a suite of internal
-                mini-applications used by bankers for customer identity,
-                authorisation, and device management. My work focused on
-                improving the accessibility and maintainability of the frontend
-                codebase, updating components to align with design standards, and
-                removing legacy anti-patterns that had accumulated over time.
-                This included close coordination with the Nab-X design system
-                team to ensure consistency across platforms.
+                Returned to NAB and joined DAF (Kronos team), where I've been
+                building and maintaining internal mini-apps that support
+                customer identity, authorisation, and device management
+                workflows. My focus has been on improving accessibility,
+                updating legacy components, and aligning the frontend with NAB's
+                design standards. This has included some coordination with the
+                Nab-X design team to ensure visual consistency across platforms.
               </p>
               <p>
-                Through this role, I’ve strengthened my working knowledge of
-                Amazon Q, Playwright for end-to-end testing, Redux Toolkit for
-                state management, and GraphQL for data queries. I'm currently
-                focused on gaining a deeper understanding of DAF's internal APIs
-                and supporting the Kronos team in onboarding several new
-                mini-apps into the identity services ecosystem.
+                Strengthened working knowledge of Amazon Q, Playwright, Redux
+                Toolkit, and GraphQL. Currently supporting the Kronos team with
+                onboarding of new mini-apps and continuing API integration work.
               </p>
             </dd>
+
             <dt>
-              <h4>03/2024 - 03/2025</h4>
+              <h4>03/2024 – 03/2025</h4>
               <h5>Melbourne</h5>
               <p>John A Hardy P/L</p>
               <p>
@@ -152,103 +162,59 @@ export const Resume = () => {
               <h4>Core Frontend Developer</h4>
               <h5>Digital Channel Operations, Melbourne University</h5>
               <p>
-                At the University of Melbourne’s Digital Channel Operations, I
-                contributed to upgrading the <em>Pursuit</em> online magazine,
-                focusing on enhancing front-end components and optimizing
-                performance. My work involved improving content authoring
-                components to boost visual appeal and interactivity of tier 3
-                articles, including quizzes, video and parallax backdrops, and
-                animated effects.
-              </p>
-              <p>
-                A key aspect of my role was modernizing the University's
-                component library while reducing page load times, improving
-                rendering efficiency, and ensuring responsiveness across
-                devices. This included refining critical rendering paths,
-                optimizing JavaScript and CSS delivery, and addressing
-                performance bottlenecks. I collaborated with backend developers
-                and designers to implement efficient content rendering and
-                improve performance using Google's Web Vitals metrics.
-              </p>
-              <p>
-                I also enhanced accessibility for the <em>Pursuit</em> site,
-                ensuring WCAG compliance through features like keyboard
-                navigation, proper color contrast ratios, and screen reader
-                support.
-              </p>
-              <p>
-                Beyond <em>Pursuit</em>, I helped upgrade the University’s
-                component library used across critical systems like "Study" and
-                "Find a Course." This project focused on improving reusability,
-                maintainability, and performance to ensure consistent user
-                experience across digital platforms.
+                Contributed to frontend upgrades for the Pursuit online magazine
+                and broader UI components across the University's digital
+                platforms. Improved interactivity, accessibility, and rendering
+                performance. Supported Web Vitals optimisation and design
+                consistency for key properties like "Study" and "Find a Course."
               </p>
               <ul className="bullets">
                 <li>
-                  Developed front-end components for high-performance web
-                  applications
+                  Enhanced frontend components for performance and accessibility
+                </li>
+                <li>Improved rendering efficiency using Web Vitals metrics</li>
+                <li>
+                  Contributed to reusable UI component upgrades across key sites
                 </li>
                 <li>
-                  Ensured reliability through comprehensive testing with Vue
-                  Testing Library
-                </li>
-                <li>
-                  Created reusable UI components to maintain cross-project
-                  consistency
-                </li>
-                <li>
-                  Mentored team members, conducted code reviews, and
-                  communicated with stakeholders
+                  Collaborated with backend and content teams for consistent
+                  delivery
                 </li>
               </ul>
             </dd>
+
             <dt>
-              <h4>07/2020 - 01/2024</h4>
+              <h4>07/2020 – 01/2024</h4>
               <h5>Melbourne</h5>
+              <p>Workjam</p>
             </dt>
             <dd className="col-span-3 border-l pl-4">
               <h4>Senior Frontend Developer</h4>
               <h5>Workjam</h5>
               <p>
-                At Workjam, I led development of web applications for frontline workforce management,
-                focusing on React architecture and performance optimization. My technical leadership
-                spanned the full development lifecycle while maintaining alignment with product teams
-                across multiple time zones.
-              </p>
-              <p>
-                I architected a UI component library using React, Tailwind, and Storybook to enforce
-                design consistency and enable component reuse. Implemented state management solutions
-                with Redux, MobX, and GraphQL to ensure application scalability. Optimized performance
-                through Next.js server-side rendering and established testing standards using Jest
-                and React Testing Library.
-              </p>
-              <p>
-                Drove technical excellence through code reviews and collaborative practices like
-                pair programming. Mentored developers on modern frontend patterns while shipping
-                complex features for enterprise-scale workforce management systems.
+                Led frontend development of React applications for
+                enterprise-scale workforce management. Built and maintained a
+                reusable UI library, implemented scalable state management, and
+                optimised performance through server-side rendering. Supported
+                test automation practices with Jest and React Testing Library.
               </p>
               <ul className="bullets">
                 <li>
-                  Built high-performance React apps for frontline workforce management
+                  Built and maintained reusable component library in
+                  React/Tailwind
+                </li>
+                <li>Implemented Redux/MobX state patterns and GraphQL APIs</li>
+                <li>
+                  Improved SSR performance and developer testing practices
                 </li>
                 <li>
-                  Developed React/Tailwind UI component library with Storybook
+                  Collaborated across time zones on feature delivery and QA
                 </li>
-                <li>
-                  Architected state management using Redux, MobX, and GraphQL
-                </li>
-                <li>
-                  Implemented testing with Jest/React Testing Library
-                </li>
-                <li>
-                  Optimized performance via Next.js SSR and REST/GraphQL APIs
-                </li>
-                <li>
-                  Collaborated with cross-functional and international teams
-                </li>              </ul>
+              </ul>
             </dd>
+
             <dt>
-              <h4>03/2017 - 07/2020</h4>
+              <h4>03/2017 – 07/2020</h4>
               <h5>Melbourne</h5>
               <p>Cognizant</p>
               <p>
@@ -256,79 +222,59 @@ export const Resume = () => {
               </p>
             </dt>
             <dd>
-              <h4>Nab: Stargaze Project - API Gateway</h4>
+              <h4>NAB: Stargaze Project – API Gateway</h4>
               <h5>Senior Analyst and Frontend Developer</h5>
               <p>
-                Led the development of the user interface and React architecture
-                for Stargaze Project API Gateway. Established the Nab user
-                interface component library (NUI) to improve code reusability
-                and maintainability. Collaborated with team members by
-                interpreting requirements, writing user stories, and providing
-                mentoring and support. Developed using React, NodeJS, Express,
-                TypeScript, and Redux. Contributed to the back-end Node server,
-                including upgrading its authentication system.
+                Led frontend development for NAB's Stargaze API Gateway,
+                designing the React architecture and establishing the NAB UI
+                component library (NUI) to support internal reuse. Worked with
+                analysts and dev teams on feature design, story writing, and
+                backend authentication integration.
               </p>
             </dd>
-            <dt></dt>
             <dd>
-              <h4>Nab Connect</h4>
+              <h4>NAB Connect</h4>
               <h5>Senior Analyst and Frontend Developer</h5>
               <p>
-                Worked as a React / AngularJS / JavaScript developer with a
-                cross functional team of 6 developers/testers and reported to
-                project managers and key stakeholders.
+                Developed banker-facing features for NAB Connect using React,
+                AngularJS, and JavaScript. Worked in a cross-functional team
+                delivering iterative enhancements in partnership with PMs and
+                stakeholders.
               </p>
             </dd>
+
             <dt>
-              <h4>01/2013 - 03/2017</h4>
+              <h4>01/2013 – 03/2017</h4>
               <h5>Adelaide</h5>
+              <p>XAPIApps</p>
             </dt>
             <dd>
               <h4>Lead Frontend Developer</h4>
-              <h5>XAPIApps</h5>
-              <ul className="bullets">
-                <li>
-                  Partnered with architect, UX designer, and developers to build
-                  a user-friendly interface.
-                </li>
-                <li>
-                  Led stakeholder discussions, captured user stories, and
-                  defined project scope through JIRA tasks.
-                </li>
-                <li>
-                  Designed functional web interfaces, built reusable web
-                  components, and established automated testing practices.
-                </li>
-                <li>
-                  Onboarded new members, provided ongoing mentorship, and
-                  effectively managed team workload.
-                </li>
-              </ul>
+              <p>
+                Led frontend architecture and UI design for training and
+                analytics tools. Worked with product, UX, and dev teams to build
+                accessible, testable components and onboarded junior engineers
+                across projects.
+              </p>
             </dd>
+
             <dt>
-              <h4>01/2004 - 12/2012</h4>
+              <h4>2004 – 2012</h4>
               <h5>Melbourne</h5>
+              <p>Lagado Partners</p>
             </dt>
             <dd>
               <h4>Principal and Partner</h4>
-              <h5>Lagado Partners</h5>
-              <b>Crikey.com.au</b>
               <p>
-                Built and maintained CMS for popular Australian news site.
-                Empowered journalists to directly manage content (publishing,
-                newsletters)
-              </p>
-              <b>Sustainable Energy Authority</b>
-              <p>
-                Led 3-person team in developing Victoria's top house energy
-                rating software (FirstRate5). Created interactive UI for
-                builders/architects to input plans and calculate thermal
-                efficiency
+                Built and maintained CMS for Crikey.com.au, enabling journalists
+                to self-publish articles and newsletters. Also led UI
+                development for Victoria's FirstRate5 home energy rating tool.
               </p>
             </dd>
           </dl>
         </article>
       </section>
+
       <section className="interests">
         <h3>Personal interests</h3>
         <ul>
@@ -355,6 +301,7 @@ export const Resume = () => {
           </li>
         </ul>
       </section>
+
       <section className="references">
         <h3>References</h3>
         <p>Available on request</p>
@@ -362,6 +309,7 @@ export const Resume = () => {
     </div>
   );
 };
+
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <Resume />
