@@ -110,7 +110,38 @@ export const Resume = () => {
         <article>
           <dl>
             <dt>
-              <h4>03/2024 - Present</h4>
+              <h4>04/2024 - Present</h4>
+              <h5>Melbourne</h5>
+              <p>National Australia Bank</p>
+              <p>
+                <i>Contractor</i>
+              </p>
+            </dt>
+            <dd className="col-span-3 border-l pl-4">
+              <h4>Senior Analyst Engineer (Frontend)</h4>
+              <h5>Customer Identity Service, NAB</h5>
+              <p>
+                After returning to NAB, I joined the DAF (Digital Assistance &
+                Fraud) stream, contributing to a suite of internal
+                mini-applications used by bankers for customer identity,
+                authorisation, and device management. My work focused on
+                improving the accessibility and maintainability of the frontend
+                codebase, updating components to align with design standards, and
+                removing legacy anti-patterns that had accumulated over time.
+                This included close coordination with the Nab-X design system
+                team to ensure consistency across platforms.
+              </p>
+              <p>
+                Through this role, I’ve strengthened my working knowledge of
+                Amazon Q, Playwright for end-to-end testing, Redux Toolkit for
+                state management, and GraphQL for data queries. I'm currently
+                focused on gaining a deeper understanding of DAF's internal APIs
+                and supporting the Kronos team in onboarding several new
+                mini-apps into the identity services ecosystem.
+              </p>
+            </dd>
+            <dt>
+              <h4>03/2024 - 03/2025</h4>
               <h5>Melbourne</h5>
               <p>John A Hardy P/L</p>
               <p>
