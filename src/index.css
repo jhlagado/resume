@@ -34,13 +34,13 @@
     }
 
     p {
-      margin: 0 0 1em 0; /* Adds space below each paragraph */
-      font-size: 1rem;    /* Default font size, typically 16px */
-      line-height: 1.5;   /* Ensures good line spacing for readability */
-      color: #333;        /* A dark color for good contrast */
-      font-family: "Arial", sans-serif; /* A clean sans-serif font */
-      word-wrap: break-word; /* Ensures long words break to avoid overflow */
-      text-align: left;    /* Align text to the left by default */
+      margin: 0 0 1em 0;
+      font-size: 1rem;
+      line-height: 1.5;
+      color: #333;
+      font-family: "Arial", sans-serif;
+      word-wrap: break-word;
+      text-align: left;
     }
 
     .bullets {
@@ -92,6 +92,14 @@
         @apply col-span-3 border-l border-l-slate-500 pl-4 mb-6
       }
 
+      .experience-role {
+        @apply text-blue-900 text-xl font-medium
+      }
+
+      .experience-team {
+        @apply text-orange-600 text-lg font-semibold mb-1
+      }
+
     }
 
     .interests  {
@@ -120,5 +128,45 @@
       @apply text-lg
     }
 
+    .references .last-updated {
+      @apply text-xs text-slate-500 mt-3;
+      font-family: "Montserrat Variable", sans-serif;
+      letter-spacing: 0.03em;
+    }
+
+  }
+}
+
+@media print {
+  @page {
+    margin: 0.55in;
+    size: A4;
+  }
+
+  html, body {
+    background: #fff !important;
+    color: #000 !important;
+  }
+
+  .resume {
+    max-width: none;
+    padding: 0 !important;
+    font-size: 11pt;
+    color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .resume a {
+    text-decoration: none;
+  }
+
+  .resume section {
+    break-inside: avoid-page;
+    page-break-inside: avoid;
+  }
+
+  .resume .skills li {
+    border-width: 1px;
   }
 }
