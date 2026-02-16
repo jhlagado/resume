@@ -234,14 +234,6 @@ const Resume = () => {
               <b>Status:</b> <LinkOrText value={data.contact.Status} />
             </div>
             <div>
-              <b>GitHub:</b> <LinkOrText value={data.contact.GitHub} />
-            </div>
-            <div>
-              <b>LinkedIn:</b> <LinkOrText value={data.contact.LinkedIn} />
-            </div>
-          </li>
-          <li>
-            <div>
               <MdLocationOn />
               <LinkOrText value={data.contact.Location} />
             </div>
@@ -254,6 +246,33 @@ const Resume = () => {
               <LinkOrText value={data.contact.Email} />
             </div>
           </li>
+          {(data.contact.GitHub ||
+            data.contact.LinkedIn ||
+            data.contact.Resume ||
+            data.contact.Blog) && (
+            <li>
+              {data.contact.GitHub && (
+                <div>
+                  <b>GitHub:</b> <LinkOrText value={data.contact.GitHub} />
+                </div>
+              )}
+              {data.contact.LinkedIn && (
+                <div>
+                  <b>LinkedIn:</b> <LinkOrText value={data.contact.LinkedIn} />
+                </div>
+              )}
+              {data.contact.Resume && (
+                <div>
+                  <b>Resume:</b> <LinkOrText value={data.contact.Resume} />
+                </div>
+              )}
+              {data.contact.Blog && (
+                <div>
+                  <b>Blog:</b> <LinkOrText value={data.contact.Blog} />
+                </div>
+              )}
+            </li>
+          )}
         </ul>
       </section>
 
