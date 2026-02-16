@@ -26,7 +26,7 @@ Leadership: `Mentoring` `Team Leadership`
 
 ### Experience
 
-#### 04/2024 - Present | Melbourne
+#### 04/2025 - 01/2026 | Melbourne
 **National Australia Bank**
 
 *Contractor*
