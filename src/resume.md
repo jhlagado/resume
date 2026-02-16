@@ -18,7 +18,7 @@ I'm a frontend developer with over 20 years of experience delivering high-perfor
 
 Frameworks & state: `React` `Vue 2/3` `Redux Toolkit` `React Router` `State Management`  
 Languages & platform: `TypeScript` `JavaScript` `HTML` `CSS` `Tailwind` `Vite`  
-APIs & data: `GraphQL` `REST APIs` `WebSockets` `SSE` `d3`  
+APIs & data: `GraphQL` `REST APIs` `WebSockets` `d3`  
 Quality & delivery: `Playwright` `Jest` `React Testing Library` `Vitest` `GitHub Actions` `Git`  
 Perf & accessibility: `Performance (Web Vitals)` `Accessibility (WCAG)` `Design Systems`  
 AI tooling: `Claude Code` `GPT Codex`  
