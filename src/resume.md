@@ -103,9 +103,7 @@ Developed banker-facing features for NAB Connect using React, AngularJS, and Jav
 
 *XAPIApps*
 
-Led frontend architecture and UI design for training and analytics tools. Worked with product, UX, and dev teams to build accessible, testable components and onboarded junior engineers across projects.
-
-Implemented real-time browser synchronisation features using WebSockets (similar to collaborative editing workflows like Google Docs) and delivered interactive analytics visualisations using d3 and Highcharts, enabling concurrent authors and live dashboards.
+Led frontend architecture for training/analytics tools, partnering with product/UX/dev and mentoring junior engineers on accessible, testable components. Built Google Docs-style real-time collaboration over WebSockets and d3/Highcharts dashboards for live analytics.
 
 #### 01/2004 - 12/2012 | Melbourne
 **Lagado Partners**
