@@ -35,9 +35,9 @@ Leadership: `Mentoring` `Team Leadership`
 
 *Customer Identity Service, NAB*
 
-Returned to NAB and joined DAF (Kronos team), where I've been building and maintaining internal mini-apps for customer identity, authorisation, and device management workflows. My focus has been accessibility uplift, modernising legacy components, and aligning frontend delivery with NAB design standards in collaboration with the Nab-X design team.
+Returned to NAB and joined DAF (Kronos team), where I built and maintained internal mini-apps for customer identity, authorisation, and device management workflows. I focused on accessibility uplift, modernising legacy components, and aligning frontend delivery with NAB design standards in collaboration with the Nab-X design team.
 
-I have also embraced NAB's AI-driven development direction by integrating Claude Code and MCP-powered workflows into day-to-day delivery, improving mini-app onboarding speed and reducing manual QA cycles alongside Playwright, Redux Toolkit, and GraphQL.
+I also embraced NAB's AI-driven development direction by integrating Claude Code and MCP-powered workflows into day-to-day delivery, improving mini-app onboarding speed and reducing manual QA cycles alongside Playwright, Redux Toolkit, and GraphQL.
 
 #### 03/2024 - 03/2025 | Melbourne
 **John A Hardy P/L**
