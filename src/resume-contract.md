@@ -17,13 +17,13 @@ Senior frontend engineer available for PAYG and sole-trader contract engagements
 
 ### Skills
 
-Frontend: `React` `TypeScript` `JavaScript` `HTML5` `CSS3` `Tailwind CSS` `Vue 2/3`  
-Architecture: `Design Systems` `Component Libraries` `Legacy Modernisation` `SSR` `Redux Toolkit` `React Router`  
-Testing & quality: `Playwright` `Jest` `React Testing Library` `Vitest` `Accessibility (WCAG)` `Web Vitals`  
-APIs & data: `GraphQL` `REST APIs` `WebSockets` `D3.js`  
-Delivery: `Git` `GitHub Actions` `CI/CD` `Agile` `TDD` `Cross-functional Delivery`  
-Consulting: `Rapid Onboarding` `Stakeholder Delivery` `Enterprise Delivery` `Frontend Uplift`  
-AI-assisted development: `Claude Code` `OpenAI Codex` `MCP Workflows`
+Frontend: `React` `TypeScript` `JavaScript` `HTML5` `CSS3` `Tailwind CSS` `Vue 2/3`
+Architecture: `Design Systems` `Component Libraries` `Legacy Modernisation` `SSR` `Redux Toolkit` `React Router`
+Testing & quality: `Playwright` `Jest` `React Testing Library` `Vitest` `WCAG Accessibility` `Web Vitals`
+APIs & data: `GraphQL` `REST APIs` `WebSockets` `D3.js`
+Delivery: `Git` `GitHub Actions` `CI/CD` `Agile` `TDD` `Cross-functional Delivery`
+Consulting: `Rapid Onboarding` `Stakeholder Delivery` `Enterprise Delivery` `Frontend Uplift`
+AI-assisted delivery: `Claude Code` `OpenAI Codex` `MCP Workflows`
 
 ### Experience
 

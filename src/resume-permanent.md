@@ -17,12 +17,12 @@ Senior frontend engineer specialising in React, TypeScript, accessibility, perfo
 
 ### Skills
 
-Frontend: `React` `TypeScript` `JavaScript` `HTML5` `CSS3` `Tailwind CSS` `Vue 2/3`  
-Architecture: `Design Systems` `Component Libraries` `SSR` `State Management` `Redux Toolkit` `React Router`  
-Testing & quality: `Playwright` `Jest` `React Testing Library` `Vitest` `Accessibility (WCAG)` `Web Vitals`  
-APIs & data: `GraphQL` `REST APIs` `WebSockets` `D3.js`  
-Delivery: `Git` `GitHub Actions` `CI/CD` `Agile` `TDD` `Vite`  
-Leadership: `Technical Mentoring` `Frontend Architecture` `Cross-functional Delivery` `Platform Consistency`  
+Frontend: `React` `TypeScript` `JavaScript` `HTML5` `CSS3` `Tailwind CSS` `Vue 2/3`
+Architecture: `Design Systems` `Component Libraries` `SSR` `State Management` `Redux Toolkit` `React Router`
+Testing & quality: `Playwright` `Jest` `React Testing Library` `Vitest` `WCAG Accessibility` `Web Vitals`
+APIs & data: `GraphQL` `REST APIs` `WebSockets` `D3.js`
+Delivery: `Git` `GitHub Actions` `CI/CD` `Agile` `TDD` `Vite`
+Leadership: `Technical Mentoring` `Frontend Architecture` `Cross-functional Delivery` `Platform Consistency`
 AI-assisted development: `Claude Code` `OpenAI Codex` `MCP Workflows`
 
 ### Experience

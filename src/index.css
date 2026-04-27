@@ -174,7 +174,7 @@
 
 @media print {
   @page {
-    margin: 0.55in;
+    margin: 0.45in;
     size: A4;
   }
 
@@ -186,10 +186,32 @@
   .resume {
     max-width: none;
     padding: 0 !important;
-    font-size: 11pt;
+    font-size: 10.5pt;
     color-adjust: exact;
     -webkit-print-color-adjust: exact;
     print-color-adjust: exact;
+  }
+
+  .resume h1 {
+    font-size: 24pt;
+    line-height: 1.05;
+  }
+
+  .resume h2 {
+    font-size: 13pt;
+    line-height: 1.2;
+  }
+
+  .resume h3 {
+    font-size: 15pt;
+    margin-top: 0.42rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .resume p {
+    font-size: 9.5pt;
+    line-height: 1.28;
+    margin-bottom: 0.45rem;
   }
 
   .resume a {
@@ -205,7 +227,51 @@
     display: none;
   }
 
+  .resume .contact > ul.contact {
+    margin-top: 0.35rem;
+    row-gap: 0.1rem;
+  }
+
+  .resume .contact > ul.contact,
+  .resume .contact > ul.contact > li {
+    column-gap: 1.8rem;
+  }
+
+  .resume .contact > ul.contact div {
+    margin-top: 0.05rem;
+    margin-bottom: 0.05rem;
+    font-size: 8.3pt;
+  }
+
+  .resume .skills .skill-groups {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 0.6rem;
+    row-gap: 0.12rem;
+  }
+
+  .resume .skills .skill-group {
+    break-inside: avoid;
+    page-break-inside: avoid;
+    margin-bottom: 0.05rem;
+  }
+
+  .resume .skills .skill-group-label {
+    font-size: 8.4pt;
+    line-height: 1.1;
+    margin-bottom: 0.05rem;
+  }
+
+  .resume .skills .skill-list {
+    margin-left: -0.08rem;
+    margin-right: -0.08rem;
+  }
+
   .resume .skills .skill-list li {
     border-width: 1px;
+    font-size: 7.8pt;
+    line-height: 1.1;
+    padding: 0.12rem 0.32rem;
+    margin: 0.08rem;
   }
 }
