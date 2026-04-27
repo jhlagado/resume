@@ -3,17 +3,17 @@
 
 - **Status:** Australian citizen
 - **Location:** Melbourne
-- **Availability:** Open to permanent and contract roles (PAYG or sole trader)
+- **Availability:** Open to permanent senior frontend roles
 - **Phone:** [+61 436 005 419](tel:+61436005419)
 - **Email:** [jh@lagado.com](mailto:jh@lagado.com)
 - **GitHub:** [https://github.com/jhlagado](https://github.com/jhlagado)
 - **LinkedIn:** [https://www.linkedin.com/in/john-hardy-804639b5/](https://www.linkedin.com/in/john-hardy-804639b5/)
-- **Resume:** [https://jhardy.work](https://jhardy.work)
+- **Resume:** [https://jhardy.work/permanent.html](https://jhardy.work/permanent.html)
 - **Blog:** [https://semantic-scroll.com](https://semantic-scroll.com)
 
 ### Professional Summary
 
-Senior frontend engineer specialising in React, TypeScript, accessibility, performance, and design-system delivery for enterprise web applications. Delivered product and platform work across banking, higher education, workforce SaaS, and publishing, with recent experience modernising legacy interfaces, improving Web Vitals and WCAG compliance, and expanding automated test coverage. Strong delivery background across employee, PAYG contract, and sole-trader engagements, with practical use of CI/CD, TDD, and AI-assisted development workflows.
+Senior frontend engineer specialising in React, TypeScript, accessibility, performance, and design-system delivery for enterprise web applications. Experienced in building reusable UI platforms, improving test coverage and delivery practices, and partnering across product, design, backend, and QA teams on long-lived product surfaces. Strong background across banking, workforce SaaS, higher education, and publishing, with a focus on frontend quality, platform consistency, and mentoring.
 
 ### Skills
 
@@ -22,8 +22,8 @@ Architecture: `Design Systems` `Component Libraries` `SSR` `State Management` `R
 Testing & quality: `Playwright` `Jest` `React Testing Library` `Vitest` `Accessibility (WCAG)` `Web Vitals`  
 APIs & data: `GraphQL` `REST APIs` `WebSockets` `D3.js`  
 Delivery: `Git` `GitHub Actions` `CI/CD` `Agile` `TDD` `Vite`  
-AI-assisted development: `Claude Code` `OpenAI Codex` `MCP Workflows`  
-Leadership: `Technical Mentoring` `Frontend Architecture` `Cross-functional Delivery`
+Leadership: `Technical Mentoring` `Frontend Architecture` `Cross-functional Delivery` `Platform Consistency`  
+AI-assisted development: `Claude Code` `OpenAI Codex` `MCP Workflows`
 
 ### Experience
 
@@ -70,6 +70,7 @@ Leadership: `Technical Mentoring` `Frontend Architecture` `Cross-functional Deli
 - Implemented scalable state-management patterns with Redux and MobX, and integrated GraphQL APIs across complex user workflows
 - Improved accessibility and internationalisation, including right-to-left language support and WCAG 2.1 AA compliance across 8 locales
 - Strengthened delivery quality through SSR performance optimisation and broader Jest and React Testing Library coverage
+- Contributed to shared frontend standards across distributed teams working across product delivery and QA
 
 #### 03/2017 - 07/2020 | Melbourne
 **Cognizant**

@@ -3,27 +3,27 @@
 
 - **Status:** Australian citizen
 - **Location:** Melbourne
-- **Availability:** Open to permanent and contract roles (PAYG or sole trader)
+- **Availability:** Open to PAYG and sole-trader contract engagements
 - **Phone:** [+61 436 005 419](tel:+61436005419)
 - **Email:** [jh@lagado.com](mailto:jh@lagado.com)
 - **GitHub:** [https://github.com/jhlagado](https://github.com/jhlagado)
 - **LinkedIn:** [https://www.linkedin.com/in/john-hardy-804639b5/](https://www.linkedin.com/in/john-hardy-804639b5/)
-- **Resume:** [https://jhardy.work](https://jhardy.work)
+- **Resume:** [https://jhardy.work/contract.html](https://jhardy.work/contract.html)
 - **Blog:** [https://semantic-scroll.com](https://semantic-scroll.com)
 
 ### Professional Summary
 
-Senior frontend engineer specialising in React, TypeScript, accessibility, performance, and design-system delivery for enterprise web applications. Delivered product and platform work across banking, higher education, workforce SaaS, and publishing, with recent experience modernising legacy interfaces, improving Web Vitals and WCAG compliance, and expanding automated test coverage. Strong delivery background across employee, PAYG contract, and sole-trader engagements, with practical use of CI/CD, TDD, and AI-assisted development workflows.
+Senior frontend engineer available for PAYG and sole-trader contract engagements, specialising in React, TypeScript, accessibility, performance, and design-system alignment for enterprise web applications. Experienced in joining established teams quickly, modernising legacy interfaces, improving test coverage, and shipping within regulated, content-heavy, and multi-stakeholder environments. Strong background across banking, higher education, workforce SaaS, and consulting-led client delivery.
 
 ### Skills
 
 Frontend: `React` `TypeScript` `JavaScript` `HTML5` `CSS3` `Tailwind CSS` `Vue 2/3`  
-Architecture: `Design Systems` `Component Libraries` `SSR` `State Management` `Redux Toolkit` `React Router`  
+Architecture: `Design Systems` `Component Libraries` `Legacy Modernisation` `SSR` `Redux Toolkit` `React Router`  
 Testing & quality: `Playwright` `Jest` `React Testing Library` `Vitest` `Accessibility (WCAG)` `Web Vitals`  
 APIs & data: `GraphQL` `REST APIs` `WebSockets` `D3.js`  
-Delivery: `Git` `GitHub Actions` `CI/CD` `Agile` `TDD` `Vite`  
-AI-assisted development: `Claude Code` `OpenAI Codex` `MCP Workflows`  
-Leadership: `Technical Mentoring` `Frontend Architecture` `Cross-functional Delivery`
+Delivery: `Git` `GitHub Actions` `CI/CD` `Agile` `TDD` `Cross-functional Delivery`  
+Consulting: `Rapid Onboarding` `Stakeholder Delivery` `Enterprise Delivery` `Frontend Uplift`  
+AI-assisted development: `Claude Code` `OpenAI Codex` `MCP Workflows`
 
 ### Experience
 
@@ -36,7 +36,7 @@ Leadership: `Technical Mentoring` `Frontend Architecture` `Cross-functional Deli
 
 *Customer Identity Service*
 
-- Built and maintained React/TypeScript mini-apps supporting customer identity, authorisation, and device-management workflows
+- Joined the team to build and maintain React/TypeScript mini-apps supporting customer identity, authorisation, and device-management workflows
 - Modernised legacy frontend components to align with NAB design-system standards and accessibility requirements
 - Partnered with Nab-X designers to improve UI consistency across internal service flows
 - Expanded Playwright coverage across GraphQL-backed interfaces using Redux Toolkit to reduce repetitive QA effort
@@ -54,7 +54,7 @@ Leadership: `Technical Mentoring` `Frontend Architecture` `Cross-functional Deli
 - Delivered frontend upgrades for Pursuit and other University of Melbourne digital properties using React-based components and modern CSS/JavaScript tooling
 - Improved accessibility, interactivity, and rendering performance across communication-focused experiences including quizzes, animation, and parallax modules
 - Supported Web Vitals optimisation and reusable UI component improvements across student-facing properties including Study and Find a Course
-- Collaborated with backend engineers, designers, and content teams to ship production changes across high-traffic publishing workflows
+- Worked across backend, design, and content stakeholders to deliver production changes in a publishing-heavy environment
 
 #### 07/2020 - 01/2024 | Melbourne
 **Workjam**
@@ -80,10 +80,10 @@ Leadership: `Technical Mentoring` `Frontend Architecture` `Cross-functional Deli
 
 *NAB Connect / Stargaze API Gateway*
 
+- Delivered frontend work across long-running NAB onsite engagements through Cognizant's consulting model
 - Led React architecture for NAB's Stargaze API Gateway and helped establish the NAB UI component library for internal reuse
 - Delivered banker-facing NAB Connect features using React, AngularJS, and JavaScript in a regulated banking environment
 - Worked with analysts, product managers, and backend engineers on feature design, story definition, and authentication integration
-- Contributed across long-running onsite client engagements, balancing delivery, stakeholder communication, and evolving platform standards
 
 #### 01/2013 - 03/2017 | Adelaide
 **XAPIApps**
