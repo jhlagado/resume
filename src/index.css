@@ -61,6 +61,18 @@
 
     .skills {
 
+      .skill-categories {
+        @apply grid gap-3
+      }
+
+      .skill-category {
+        @apply mt-0
+      }
+
+      h4 {
+        @apply text-sm text-blue-900 font-extrabold mb-1
+      }
+
       ul {
         @apply -mx-1
       }
@@ -168,5 +180,15 @@
 
   .resume .skills li {
     border-width: 1px;
+  }
+
+  .resume .skills .skill-categories {
+    display: block;
+  }
+
+  .resume .skills .skill-category {
+    break-inside: avoid;
+    page-break-inside: avoid;
+    margin-bottom: 0.35rem;
   }
 }

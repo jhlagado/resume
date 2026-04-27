@@ -1,7 +1,8 @@
 # John Hardy
-## Senior Frontend Developer
+## Senior Frontend Engineer | React, TypeScript, Accessibility & Design Systems
 
 - **Status:** Australian citizen
+- **Availability:** Permanent, contract, and consulting roles
 - **Resume:** [https://jhardy.work](https://jhardy.work)
 - **GitHub:** [https://github.com/jhlagado](https://github.com/jhlagado)
 - **Location:** Melbourne
@@ -12,17 +13,18 @@
 
 ### Professional Summary
 
-I'm a frontend developer with over 20 years of experience delivering high-performance, user-friendly web applications using React and related technologies. I thrive in collaborative environments and enjoy contributing to focused engineering teams working on meaningful projects. I bring deep experience in Agile development at scale, with a strong emphasis on test-driven development and continuous delivery.
+Senior frontend engineer specialising in React, TypeScript, accessibility, performance, and design-system delivery for enterprise web applications. Experienced in building reusable UI platforms, modernising legacy interfaces, improving Web Vitals and WCAG compliance, and working across product, design, backend, and QA teams. Strong delivery background in Agile environments, with practical use of automated testing, CI/CD, and AI-assisted development workflows.
 
 ### Skills
 
-Frameworks & state: `React` `Vue 2/3` `Redux Toolkit` `React Router` `State Management`  
-Languages & platform: `TypeScript` `JavaScript` `HTML` `CSS` `Tailwind` `Vite`  
-APIs & data: `GraphQL` `REST APIs` `WebSockets` `d3`  
-Quality & delivery: `Playwright` `Jest` `React Testing Library` `Vitest` `GitHub Actions` `Git`  
-Perf & accessibility: `Performance (Web Vitals)` `Accessibility (WCAG)` `Design Systems`  
-AI tooling: `Claude Code` `GPT Codex`  
-Leadership: `Mentoring` `Team Leadership`
+Frontend: `React` `TypeScript` `JavaScript` `HTML5` `CSS3` `Tailwind CSS` `Vue 2/3` `Vite`
+Architecture: `Design Systems` `Component Libraries` `State Management` `Redux Toolkit` `React Router` `SSR`
+APIs & data: `GraphQL` `REST APIs` `WebSockets` `D3.js` `Highcharts`
+Testing & quality: `Playwright` `Jest` `React Testing Library` `Vitest` `TDD`
+Performance & accessibility: `Web Vitals` `WCAG 2.1 AA` `Internationalisation` `RTL Support`
+Delivery: `Git` `GitHub Actions` `CI/CD` `Agile` `Cross-functional Delivery`
+AI-assisted development: `Claude Code` `OpenAI Codex` `MCP Workflows`
+Leadership: `Technical Mentoring` `Frontend Architecture` `Team Leadership`
 
 ### Experience
 
@@ -35,25 +37,26 @@ Leadership: `Mentoring` `Team Leadership`
 
 *Customer Identity Service, NAB*
 
-Returned to NAB and joined DAF (Kronos team), where I built and maintained internal mini-apps for customer identity, authorisation, and device management workflows. I focused on accessibility uplift, modernising legacy components, and aligning frontend delivery with NAB design standards in collaboration with the Nab-X design team.
-
-I also embraced NAB's AI-driven development direction by integrating Claude Code and MCP-powered workflows into day-to-day delivery, improving mini-app onboarding speed and reducing manual QA cycles alongside Playwright, Redux Toolkit, and GraphQL.
+- Built and maintained React/TypeScript mini-apps supporting customer identity, authorisation, and device-management workflows.
+- Modernised legacy frontend components to align with NAB design standards and accessibility expectations.
+- Partnered with Nab-X designers on UI consistency and accessibility uplift across internal identity workflows.
+- Integrated Claude Code and MCP-assisted workflows into day-to-day delivery to improve onboarding and reduce repetitive QA effort.
+- Worked with Playwright, Redux Toolkit, and GraphQL-backed interfaces in a regulated enterprise environment.
 
 #### 03/2024 - 03/2025 | Melbourne
 **John A Hardy P/L**
 
-*Contractor*
+*Independent Frontend Contractor*
 
 **Core Frontend Developer**
 
 *Digital Channel Operations, Melbourne University*
 
-Contributed to frontend upgrades for the Pursuit online magazine and broader UI components across the University's digital platforms. Improved interactivity, accessibility, and rendering performance, and delivered communication-focused experiences (quizzes, animation, parallax effects—e.g., an interactive parallax quiz module) while keeping performance and accessibility central. Supported Web Vitals optimisation and design consistency for key properties like "Study" and "Find a Course."
-
-- Enhanced frontend components for performance and accessibility
-- Improved rendering efficiency using Web Vitals metrics
-- Contributed to reusable UI component upgrades across key sites
-- Collaborated with backend and content teams for consistent delivery
+- Delivered frontend upgrades for Pursuit online magazine and broader University digital platforms.
+- Improved interactivity, accessibility, and rendering performance across public-facing content experiences.
+- Built communication-focused UI experiences including quizzes, animation, and an interactive parallax quiz module.
+- Supported Web Vitals optimisation and design consistency for key properties including "Study" and "Find a Course."
+- Collaborated with backend, content, and digital operations teams to deliver maintainable frontend improvements.
 
 #### 07/2020 - 01/2024 | Melbourne
 **Workjam**
@@ -62,48 +65,43 @@ Contributed to frontend upgrades for the Pursuit online magazine and broader UI 
 
 **Senior Frontend Developer**
 
-*Workjam*
+*Enterprise Workforce Management Platform*
 
-Led frontend development of React applications for enterprise-scale workforce management. Built and maintained a reusable UI library, implemented scalable state management, and optimised performance through server-side rendering. Supported test automation practices with Jest and React Testing Library.
+- Led frontend development of React applications for enterprise-scale workforce management.
+- Built and maintained a reusable React/Tailwind component library for shared product UI patterns.
+- Implemented Redux/MobX state patterns and GraphQL integrations across complex product workflows.
+- Improved SSR performance, automated testing practices, and developer delivery confidence with Jest and React Testing Library.
+- Improved accessibility and internationalisation, including right-to-left language support in the web app (WCAG 2.1 AA across 8 locales).
+- Collaborated across time zones on feature delivery, QA, and release readiness.
 
-- Built and maintained reusable component library in React/Tailwind
-- Implemented Redux/MobX state patterns and GraphQL APIs
-- Improved SSR performance and developer testing practices
-- Improved accessibility and internationalisation, including introducing right-to-left language support in the web app (WCAG 2.1 AA across 8 locales)
-- Collaborated across time zones on feature delivery and QA
-
-#### 03/2017 - 07/2018 | Melbourne
+#### 03/2017 - 07/2020 | Melbourne
 **Cognizant**
 
 *Consultant*
 
-**NAB: Stargaze Project - API Gateway**
+**Senior Analyst and Frontend Developer**
 
-*Senior Analyst and Frontend Developer*
+*NAB Stargaze API Gateway / NAB Connect*
 
-Led frontend development for NAB's Stargaze API Gateway, designing the React architecture and establishing the NAB UI component library (NUI) to support internal reuse. Worked with analysts and dev teams on feature design, story writing, and backend authentication integration.
-
-#### 03/2018 - 07/2020 | Melbourne
-**Cognizant**
-
-*Consultant*
-
-**NAB Connect**
-
-*Senior Analyst and Frontend Developer*
-
-Developed banker-facing features for NAB Connect using React, AngularJS, and JavaScript. Worked in a cross-functional team delivering iterative enhancements in partnership with PMs and stakeholders.
+- Led frontend development for NAB's Stargaze API Gateway, including React architecture and reusable UI patterns.
+- Helped establish the NAB UI component library (NUI) to support internal reuse across teams.
+- Delivered banker-facing NAB Connect features using React, AngularJS, and JavaScript.
+- Worked with analysts, PMs, backend engineers, and stakeholders on feature design, story writing, and authentication integration.
 
 #### 01/2013 - 03/2017 | Adelaide
 **XAPIApps**
 
-*Employee*
+*Contract via Lagado Partners*
 
 **Lead Frontend Developer**
 
-*XAPIApps*
+*Training and Analytics Products*
 
-Led frontend architecture for training/analytics tools, partnering with product/UX/dev and mentoring junior engineers on accessible, testable components. Built Google Docs-style real-time collaboration over WebSockets and d3/Highcharts dashboards for live analytics.
+- Led frontend architecture for training and analytics tools as a Lagado Partners contract engagement.
+- Partnered with product, UX, and development teams on accessible, testable frontend components.
+- Mentored junior engineers and supported maintainable delivery practices.
+- Built Google Docs-style real-time collaboration over WebSockets.
+- Delivered D3.js and Highcharts dashboards for live analytics.
 
 #### 01/2004 - 12/2012 | Melbourne
 **Lagado Partners**
@@ -112,14 +110,15 @@ Led frontend architecture for training/analytics tools, partnering with product/
 
 **Principal and Partner**
 
-*Lagado Partners*
+*Web Applications, Publishing Systems, and Client Delivery*
 
-Built and maintained CMS for Crikey.com.au, enabling journalists to self-publish articles and newsletters. Also led UI development for Victoria's FirstRate5 home energy rating tool.
+- Built and maintained the CMS for Crikey.com.au, enabling journalists to self-publish articles and newsletters.
+- Led UI development for Victoria's FirstRate5 home energy rating tool.
+- Delivered custom web applications and contract engagements, including later frontend work with XAPIApps.
 
 ### Personal interests
 
-- **Retro-computing, electronics:** [https://github.com/tec1group](https://github.com/tec1group)
-- **Administrator TEC-1 Z80 Computer Group:** [https://www.facebook.com/groups/623556744820045/](https://www.facebook.com/groups/623556744820045/)
+- **Retro-computing and electronics:** [https://github.com/tec1group](https://github.com/tec1group)
 
 ### References
 

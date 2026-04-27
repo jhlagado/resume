@@ -1,8 +1,8 @@
-import ReactDOM from "react-dom/client";
 import React from "react";
+import ReactDOM from "react-dom/client";
 import "@fontsource-variable/montserrat";
 import "./index.css";
-import resumeMarkdown from "./resume.md?raw";
+import resumeMarkdown from "./resume-permanent.md?raw";
 import { ResumeApp } from "./resume-app";
 
 declare const __RESUME_LAST_UPDATED__: string;
