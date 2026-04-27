@@ -48,24 +48,59 @@
     }
 
     .contact {
-      ul {
-        @apply md:flex text-sm font-bold mt-4
+      .variant-nav {
+        @apply mt-4 text-sm font-sans text-slate-700;
       }
-      div {
-        @apply whitespace-nowrap font-sans mr-28 my-2
+
+      .variant-nav-label {
+        @apply font-bold mr-2;
       }
-      div svg {
+
+      .variant-nav ul {
+        @apply inline-flex flex-wrap gap-x-3 gap-y-1;
+      }
+
+      .variant-nav li {
+        @apply m-0;
+      }
+
+      .variant-nav-current {
+        @apply font-bold text-blue-900;
+      }
+
+      > ul.contact {
+        @apply flex flex-wrap text-sm font-bold mt-4 gap-x-10 gap-y-2
+      }
+      > ul.contact > li {
+        @apply flex flex-wrap gap-x-10 gap-y-2
+      }
+      > ul.contact div {
+        @apply font-sans my-1
+      }
+      > ul.contact div svg {
         @apply text-orange-500 inline-block mr-1
       }
     }
 
     .skills {
+      .skill-groups {
+        @apply space-y-4
+      }
 
-      ul {
+      .skill-group {
+        @apply m-0
+      }
+
+      .skill-group-label {
+        @apply mb-2 text-sm font-bold uppercase tracking-wide text-blue-900;
+        font-family: "Montserrat Variable", sans-serif;
+      }
+
+      .skill-list {
         @apply -mx-1
       }
 
-      li {
+      .skill-list li {
         @apply inline-block font-bold border border-solid px-2 py-2 m-1
       }
 
@@ -166,7 +201,11 @@
     page-break-inside: avoid;
   }
 
-  .resume .skills li {
+  .resume .variant-nav {
+    display: none;
+  }
+
+  .resume .skills .skill-list li {
     border-width: 1px;
   }
 }
