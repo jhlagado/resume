@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDOM from "react-dom/client";
 import { MdDiamond, MdEmail, MdLocalPhone, MdLocationOn, MdSettingsSuggest } from "react-icons/md";
 
 type LinkValue = {
@@ -247,7 +246,7 @@ const LinkOrText = ({ value }: { value?: LinkValue }) => {
   );
 };
 
-const Resume = ({
+export const ResumeApp = ({
   activeVariant,
   lastUpdated,
   resumeMarkdown,
@@ -405,13 +404,5 @@ const Resume = ({
         <p className="last-updated">Last updated: {lastUpdated}</p>
       </section>
     </div>
-  );
-};
-
-export const renderResumeApp = ({ activeVariant, lastUpdated, resumeMarkdown }: ResumeAppConfig) => {
-  ReactDOM.createRoot(document.getElementById("root")!).render(
-    <React.StrictMode>
-      <Resume activeVariant={activeVariant} lastUpdated={lastUpdated} resumeMarkdown={resumeMarkdown} />
-    </React.StrictMode>,
   );
 };

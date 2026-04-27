@@ -1,12 +1,18 @@
 import "@fontsource-variable/montserrat";
 import "./index.css";
 import resumeMarkdown from "./resume-contract.md?raw";
-import { renderResumeApp } from "./resume-app";
+import { ResumeApp } from "./resume-app";
+import React from "react";
+import ReactDOM from "react-dom/client";
 
 declare const __RESUME_LAST_UPDATED_MAP__: Record<string, string>;
 
-renderResumeApp({
-  activeVariant: "contract",
-  lastUpdated: __RESUME_LAST_UPDATED_MAP__["src/resume-contract.md"],
-  resumeMarkdown,
-});
+ReactDOM.createRoot(document.getElementById("root")!).render(
+  <React.StrictMode>
+    <ResumeApp
+      activeVariant="contract"
+      lastUpdated={__RESUME_LAST_UPDATED_MAP__["src/resume-contract.md"]}
+      resumeMarkdown={resumeMarkdown}
+    />
+  </React.StrictMode>,
+);
