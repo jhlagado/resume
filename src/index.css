@@ -223,9 +223,18 @@
     page-break-inside: avoid;
   }
 
-  .resume .skills {
+  /* Allow skills and experience to start/flow on page 1 */
+  .resume .skills,
+  .resume .experience {
     break-inside: auto;
     page-break-inside: auto;
+  }
+
+  /* Keep each individual role entry together */
+  .resume .experience dt,
+  .resume .experience dd {
+    break-inside: avoid;
+    page-break-inside: avoid;
   }
 
   .resume .variant-nav {
@@ -248,35 +257,47 @@
     font-size: 8.3pt;
   }
 
+  /* Skills as compact two-column label + plain comma-separated text */
   .resume .skills .skill-groups {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    column-gap: 0.6rem;
-    row-gap: 0.08rem;
+    column-gap: 0.8rem;
+    row-gap: 0.25rem;
   }
 
   .resume .skills .skill-group {
     break-inside: avoid;
     page-break-inside: avoid;
-    margin-bottom: 0.05rem;
+    margin-bottom: 0;
   }
 
   .resume .skills .skill-group-label {
-    font-size: 8pt;
-    line-height: 1.1;
-    margin-bottom: 0.05rem;
+    font-size: 7.8pt;
+    line-height: 1.2;
+    margin-bottom: 0.06rem;
   }
 
+  /* Replace chips with plain comma-separated text in print */
   .resume .skills .skill-list {
-    margin-left: -0.08rem;
-    margin-right: -0.08rem;
+    margin: 0;
   }
 
   .resume .skills .skill-list li {
-    border-width: 1px;
-    font-size: 7.5pt;
-    line-height: 1.1;
-    padding: 0.1rem 0.28rem;
-    margin: 0.06rem;
+    display: inline;
+    border: none;
+    background: none;
+    padding: 0;
+    margin: 0;
+    font-size: 8.5pt;
+    font-weight: normal;
+    line-height: 1.4;
+  }
+
+  .resume .skills .skill-list li::after {
+    content: ', ';
+  }
+
+  .resume .skills .skill-list li:last-child::after {
+    content: '';
   }
 }
