@@ -13,7 +13,7 @@
 
 ### Professional Summary
 
-Senior frontend contractor specialising in React, TypeScript, accessibility, performance, and frontend uplift inside enterprise client environments. I help teams modernise legacy interfaces, build reliable component patterns, improve delivery confidence with automated testing, and ship maintainable UI work without long ramp-up time. Recent contracts include NAB customer identity mini-apps and Melbourne University digital platform upgrades.
+Senior frontend contractor specialising in React, TypeScript, accessibility, performance, and frontend uplift inside enterprise client environments. I modernise legacy interfaces, build reliable component patterns, improve delivery confidence with automated testing, and ship maintainable UI work with minimal ramp-up. Recent contracts include NAB customer identity mini-apps and Melbourne University digital platform upgrades.
 
 ### Skills
 
@@ -22,7 +22,7 @@ Client environments: `Enterprise delivery` `Legacy modernisation` `Design System
 State & data: `Redux Toolkit` `React Router` `GraphQL` `REST APIs` `WebSockets` `D3.js`
 Quality & delivery: `Playwright` `Jest` `React Testing Library` `Vitest` `GitHub Actions` `Git` `CI/CD`
 Performance & accessibility: `Web Vitals` `WCAG Accessibility` `SSR Performance` `Internationalisation`
-AI-assisted delivery: `Claude Code` `Codex` `MCP workflows`
+AI-assisted delivery: `Claude Code` `OpenAI Codex` `MCP workflows`
 Collaboration: `Fast onboarding` `Stakeholder communication` `Cross-functional delivery` `Mentoring`
 
 ### Experience
