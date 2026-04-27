@@ -319,7 +319,7 @@ export const ResumeApp = ({
                 </div>
               )}
               {data.contact.Blog && (
-                <div>
+                <div className="print-hide">
                   <b>Blog:</b> <LinkOrText value={data.contact.Blog} />
                 </div>
               )}
