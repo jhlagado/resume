@@ -6,7 +6,9 @@ Simple resume site built with Vite + React and published to GitHub Pages.
 
 The resume content is in markdown:
 
-`src/resume.md`
+- `src/resume.md` - hybrid / general version
+- `src/resume-permanent.md` - permanent-role version
+- `src/resume-contract.md` - contract-role version
 
 Update this file, then run locally:
 
@@ -22,4 +24,10 @@ npm run build
 
 This outputs static files to `dist/` for GitHub Pages deployment.
 
-`npm run build` runs `validate:resume` first to ensure `src/resume.md` matches the expected resume schema.
+`npm run build` runs `validate:resume` first to ensure all `src/resume*.md` files match the expected resume schema.
+
+## Published pages
+
+- `/` - hybrid / general resume
+- `/permanent.html` - permanent-role version
+- `/contract.html` - contract-role version
