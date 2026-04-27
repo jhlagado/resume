@@ -223,6 +223,11 @@
     page-break-inside: avoid;
   }
 
+  .resume .skills {
+    break-inside: auto;
+    page-break-inside: auto;
+  }
+
   .resume .variant-nav {
     display: none;
   }
@@ -247,7 +252,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 0.6rem;
-    row-gap: 0.12rem;
+    row-gap: 0.08rem;
   }
 
   .resume .skills .skill-group {
@@ -257,7 +262,7 @@
   }
 
   .resume .skills .skill-group-label {
-    font-size: 8.4pt;
+    font-size: 8pt;
     line-height: 1.1;
     margin-bottom: 0.05rem;
   }
@@ -269,9 +274,9 @@
 
   .resume .skills .skill-list li {
     border-width: 1px;
-    font-size: 7.8pt;
+    font-size: 7.5pt;
     line-height: 1.1;
-    padding: 0.12rem 0.32rem;
-    margin: 0.08rem;
+    padding: 0.1rem 0.28rem;
+    margin: 0.06rem;
   }
 }
