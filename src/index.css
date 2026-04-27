@@ -192,26 +192,33 @@
     print-color-adjust: exact;
   }
 
+  /* Name: large, commanding, sits 0.25in from top margin */
   .resume h1 {
-    font-size: 24pt;
+    font-size: 26pt;
     line-height: 1.05;
+    margin-top: 0.25in;
+    margin-bottom: 0;
   }
 
+  /* Title: sits directly under name, more breathing room below */
   .resume h2 {
     font-size: 13pt;
-    line-height: 1.2;
+    line-height: 1.3;
+    margin-top: 0.05rem;
+    margin-bottom: 0.55rem;
   }
 
+  /* Section headings: clear visual break above, tight below */
   .resume h3 {
-    font-size: 15pt;
-    margin-top: 0.42rem;
+    font-size: 14pt;
+    margin-top: 1.0rem;
     margin-bottom: 0.25rem;
   }
 
   .resume p {
     font-size: 9.5pt;
-    line-height: 1.28;
-    margin-bottom: 0.45rem;
+    line-height: 1.35;
+    margin-bottom: 0.4rem;
   }
 
   .resume a {
@@ -223,7 +230,7 @@
     page-break-inside: avoid;
   }
 
-  /* Allow skills and experience to start/flow on page 1 */
+  /* Allow skills and experience to flow across pages naturally */
   .resume .skills,
   .resume .experience {
     break-inside: auto;
@@ -241,45 +248,59 @@
     display: none;
   }
 
+  /* Contact block: compact, single visual row, rule below to close the header */
   .resume .contact > ul.contact {
-    margin-top: 0.35rem;
-    row-gap: 0.1rem;
+    margin-top: 0.3rem;
+    row-gap: 0.12rem;
+    padding-bottom: 0.55rem;
+    border-bottom: 0.75pt solid #b0b8c8;
   }
 
   .resume .contact > ul.contact,
   .resume .contact > ul.contact > li {
-    column-gap: 1.8rem;
+    column-gap: 1.4rem;
   }
 
   .resume .contact > ul.contact div {
-    margin-top: 0.05rem;
-    margin-bottom: 0.05rem;
-    font-size: 8.3pt;
+    margin-top: 0.04rem;
+    margin-bottom: 0.04rem;
+    font-size: 8.4pt;
   }
 
-  /* Skills as compact two-column label + plain comma-separated text */
+  /* Hide Blog from print — saves a row, URL is in page metadata anyway */
+  .resume .contact .print-hide {
+    display: none;
+  }
+
+  /* Skills: one line per category "LABEL: skill, skill, skill" — no grid, no chips */
   .resume .skills .skill-groups {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 0.8rem;
-    row-gap: 0.25rem;
+    display: block;
+    margin-top: 0.1rem;
   }
 
   .resume .skills .skill-group {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
     break-inside: avoid;
     page-break-inside: avoid;
-    margin-bottom: 0;
+    margin-bottom: 0.22rem;
   }
 
   .resume .skills .skill-group-label {
-    font-size: 7.8pt;
-    line-height: 1.2;
-    margin-bottom: 0.06rem;
+    display: inline;
+    white-space: nowrap;
+    font-size: 8pt;
+    font-family: "Montserrat Variable", sans-serif;
+    line-height: 1.5;
+    margin: 0 0.4em 0 0;
+    flex-shrink: 0;
   }
 
-  /* Replace chips with plain comma-separated text in print */
   .resume .skills .skill-list {
+    display: inline;
     margin: 0;
+    padding: 0;
   }
 
   .resume .skills .skill-list li {
@@ -288,9 +309,9 @@
     background: none;
     padding: 0;
     margin: 0;
-    font-size: 8.5pt;
+    font-size: 9pt;
     font-weight: normal;
-    line-height: 1.4;
+    line-height: 1.5;
   }
 
   .resume .skills .skill-list li::after {
