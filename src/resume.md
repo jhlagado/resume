@@ -22,7 +22,7 @@ Architecture: `Design Systems` `Component Libraries` `SSR` `State Management` `R
 Testing & quality: `Playwright` `Jest` `React Testing Library` `Vitest` `WCAG Accessibility` `Web Vitals`
 APIs & data: `GraphQL` `REST APIs` `WebSockets` `D3.js`
 Delivery: `Git` `GitHub Actions` `CI/CD` `Agile` `TDD` `Vite`
-AI-assisted development: `Claude Code` `OpenAI Codex` `MCP Workflows`
+AI-assisted development: `Claude Code` `Cursor AI` `OpenAI Codex` `MCP Workflows`
 Leadership: `Technical Mentoring` `Frontend Architecture` `Cross-functional Delivery`
 
 ### Experience
