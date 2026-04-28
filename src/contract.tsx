@@ -10,7 +10,6 @@ declare const __RESUME_LAST_UPDATED_MAP__: Record<string, string>;
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <ResumeApp
-      activeVariant="contract"
       lastUpdated={__RESUME_LAST_UPDATED_MAP__["src/resume-contract.md"]}
       resumeMarkdown={resumeMarkdown}
     />
