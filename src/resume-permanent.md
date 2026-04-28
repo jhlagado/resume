@@ -23,7 +23,7 @@ Testing & quality: `Playwright` `Jest` `React Testing Library` `Vitest` `WCAG Ac
 APIs & data: `GraphQL` `REST APIs` `WebSockets` `D3.js`
 Delivery: `Git` `GitHub Actions` `CI/CD` `Agile` `TDD` `Vite`
 Leadership: `Technical Mentoring` `Frontend Architecture` `Cross-functional Delivery` `Platform Consistency`
-AI-assisted development: `Claude Code` `OpenAI Codex` `MCP Workflows`
+AI-assisted development: `Claude Code` `Cursor AI` `OpenAI Codex` `MCP Workflows`
 
 ### Experience
 
