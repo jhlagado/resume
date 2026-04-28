@@ -38,19 +38,11 @@ type ResumeData = {
   references: string;
 };
 
-type ResumeVariantKey = "hybrid" | "permanent" | "contract";
-
 type ResumeAppConfig = {
-  activeVariant: ResumeVariantKey;
   lastUpdated: string;
   resumeMarkdown: string;
 };
 
-const resumeVariants: Array<{ href: string; key: ResumeVariantKey; label: string }> = [
-  { key: "hybrid", label: "Hybrid", href: "./" },
-  { key: "permanent", label: "Permanent", href: "./permanent.html" },
-  { key: "contract", label: "Contract", href: "./contract.html" },
-];
 
 const unwrapMarkdown = (line: string, marker: "**" | "*"): string => {
   const trimmed = line.trim();
@@ -247,7 +239,6 @@ const LinkOrText = ({ value }: { value?: LinkValue }) => {
 };
 
 export const ResumeApp = ({
-  activeVariant,
   lastUpdated,
   resumeMarkdown,
 }: ResumeAppConfig) => {
@@ -259,22 +250,6 @@ export const ResumeApp = ({
       <section className="contact">
         <h1>{data.name}</h1>
         <h2>{data.title}</h2>
-        <nav className="variant-nav" aria-label="Resume versions">
-          <span className="variant-nav-label">Versions:</span>
-          <ul>
-            {resumeVariants.map((variant) => (
-              <li key={variant.key}>
-                {variant.key === activeVariant ? (
-                  <span aria-current="page" className="variant-nav-current">
-                    {variant.label}
-                  </span>
-                ) : (
-                  <a href={variant.href}>{variant.label}</a>
-                )}
-              </li>
-            ))}
-          </ul>
-        </nav>
         <ul className="contact">
           <li>
             <div>
