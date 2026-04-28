@@ -17,7 +17,7 @@ Senior frontend engineer specialising in React, TypeScript, accessibility, perfo
 
 ### Skills
 
-Frontend: `React` `TypeScript` `JavaScript` `HTML5` `CSS3` `Tailwind CSS` `Vue 2/3`
+Frontend: `React` `TypeScript` `JavaScript` `HTML5` `CSS3` `Tailwind CSS` `Vue 2/3` `Nuxt`
 Architecture: `Design Systems` `Component Libraries` `SSR` `State Management` `Redux Toolkit` `React Router`
 Testing & quality: `Playwright` `Jest` `React Testing Library` `Vitest` `WCAG Accessibility` `Web Vitals`
 APIs & data: `GraphQL` `REST APIs` `WebSockets` `D3.js`
@@ -51,7 +51,7 @@ Leadership: `Technical Mentoring` `Frontend Architecture` `Cross-functional Deli
 
 *University of Melbourne - Digital Channel Operations*
 
-- Delivered frontend upgrades for Pursuit and other University of Melbourne digital properties using React-based components and modern CSS/JavaScript tooling
+- Delivered frontend upgrades for Pursuit and other University of Melbourne digital properties using Vue 3, Nuxt, and modern CSS/JavaScript tooling
 - Improved accessibility, interactivity, and rendering performance across communication-focused experiences including quizzes, animation, and parallax modules
 - Supported Web Vitals optimisation and reusable UI component improvements across student-facing properties including Study and Find a Course
 - Collaborated with backend engineers, designers, and content teams to ship production changes across high-traffic publishing workflows
