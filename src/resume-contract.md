@@ -39,7 +39,7 @@ AI-assisted delivery: `Claude Code` `Cursor AI` `OpenAI Codex` `MCP Workflows`
 - Joined the team to build and maintain React/TypeScript mini-apps supporting customer identity, authorisation, and device-management workflows
 - Modernised legacy frontend components to align with NAB design-system standards and accessibility requirements
 - Partnered with Nab-X designers to improve UI consistency across internal service flows
-- Expanded Playwright coverage across GraphQL-backed interfaces using Redux Toolkit to reduce repetitive QA effort
+- Expanded Playwright coverage across multiple mini-apps, each using different stacks (Redux Toolkit, GraphQL, REST) to suit the workflow
 - Introduced Claude Code and MCP-assisted workflows to improve onboarding speed and day-to-day delivery efficiency
 
 #### 03/2024 - 03/2025 | Melbourne
