@@ -3,7 +3,7 @@
 
 - **Status:** Australian citizen
 - **Location:** Melbourne
-- **Availability:** Open to PAYG and sole-trader contract engagements
+- **Availability:** Open to contract engagements
 - **Phone:** [+61 436 005 419](tel:+61436005419)
 - **Email:** [jh@lagado.com](mailto:jh@lagado.com)
 - **GitHub:** [https://github.com/jhlagado](https://github.com/jhlagado)
@@ -13,7 +13,7 @@
 
 ### Professional Summary
 
-Senior frontend engineer available for PAYG and sole-trader contract engagements, specialising in React, TypeScript, accessibility, performance, and design-system alignment for enterprise web applications. Experienced in joining established teams quickly, modernising legacy interfaces, improving test coverage, and shipping within regulated, content-heavy, and multi-stakeholder environments. Strong background across banking, higher education, workforce SaaS, and consulting-led client delivery.
+Senior frontend engineer available for contract engagements, specialising in React, TypeScript, accessibility, performance, and design-system alignment for enterprise web applications. Experienced in joining established teams quickly, modernising legacy interfaces, improving test coverage, and shipping within regulated, content-heavy, and multi-stakeholder environments. Strong background across banking, higher education, workforce SaaS, and consulting-led client delivery.
 
 ### Skills
 
@@ -30,7 +30,7 @@ AI-assisted delivery: `Claude Code` `Cursor AI` `OpenAI Codex` `MCP Workflows`
 #### 04/2025 - 01/2026 | Melbourne
 **National Australia Bank**
 
-*PAYG contract*
+*Contract*
 
 **Senior Frontend Engineer**
 
@@ -43,9 +43,9 @@ AI-assisted delivery: `Claude Code` `Cursor AI` `OpenAI Codex` `MCP Workflows`
 - Introduced Claude Code and MCP-assisted workflows to improve onboarding speed and day-to-day delivery efficiency
 
 #### 03/2024 - 03/2025 | Melbourne
-**Independent Frontend Contractor**
+**Melbourne Independent Frontend Contractor**
 
-*PAYG / agency contract*
+*Contract*
 
 **Senior Frontend Engineer**
 

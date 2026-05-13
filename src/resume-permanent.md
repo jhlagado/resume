@@ -30,7 +30,7 @@ AI-assisted development: `Claude Code` `Cursor AI` `OpenAI Codex` `MCP Workflows
 #### 04/2025 - 01/2026 | Melbourne
 **National Australia Bank**
 
-*PAYG contract*
+*Contract*
 
 **Senior Frontend Engineer**
 
@@ -43,9 +43,9 @@ AI-assisted development: `Claude Code` `Cursor AI` `OpenAI Codex` `MCP Workflows
 - Introduced Claude Code and MCP-assisted workflows to improve onboarding speed and day-to-day delivery efficiency
 
 #### 03/2024 - 03/2025 | Melbourne
-**Independent Frontend Contractor**
+**Melbourne Independent Frontend Contractor**
 
-*PAYG / agency contract*
+*Contract*
 
 **Senior Frontend Engineer**
 
