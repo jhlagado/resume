@@ -3,7 +3,7 @@
 
 - **Status:** Australian citizen
 - **Location:** Melbourne
-- **Availability:** Open to permanent and contract roles (PAYG or sole trader)
+- **Availability:** Open to permanent and contract roles
 - **Phone:** [+61 436 005 419](tel:+61436005419)
 - **Email:** [jh@lagado.com](mailto:jh@lagado.com)
 - **GitHub:** [https://github.com/jhlagado](https://github.com/jhlagado)
@@ -13,7 +13,7 @@
 
 ### Professional Summary
 
-Senior frontend engineer specialising in React, TypeScript, accessibility, performance, and design-system delivery for enterprise web applications. Delivered product and platform work across banking, higher education, workforce SaaS, and publishing, with recent experience modernising legacy interfaces, improving Web Vitals and WCAG compliance, and expanding automated test coverage. Strong delivery background across employee, PAYG contract, and sole-trader engagements, with practical use of CI/CD, TDD, and AI-assisted development workflows.
+Senior frontend engineer specialising in React, TypeScript, accessibility, performance, and design-system delivery for enterprise web applications. Delivered product and platform work across banking, higher education, workforce SaaS, and publishing, with recent experience modernising legacy interfaces, improving Web Vitals and WCAG compliance, and expanding automated test coverage. Strong delivery background across employee and contract engagements, with practical use of CI/CD, TDD, and AI-assisted development workflows.
 
 ### Skills
 
@@ -30,7 +30,7 @@ Leadership: `Technical Mentoring` `Frontend Architecture` `Cross-functional Deli
 #### 04/2025 - 01/2026 | Melbourne
 **National Australia Bank**
 
-*PAYG contract*
+*Contract*
 
 **Senior Frontend Engineer**
 
@@ -43,9 +43,9 @@ Leadership: `Technical Mentoring` `Frontend Architecture` `Cross-functional Deli
 - Introduced Claude Code and MCP-assisted workflows to improve onboarding speed and day-to-day delivery efficiency
 
 #### 03/2024 - 03/2025 | Melbourne
-**Independent Frontend Contractor**
+**Melbourne Independent Frontend Contractor**
 
-*PAYG / agency contract*
+*Contract*
 
 **Senior Frontend Engineer**
 
